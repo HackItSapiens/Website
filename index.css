@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: auto;
+}
+
+#nav{
+    height: 67px;
+    width: 100%;
+    background-image: url(./images/Nav\ BG.png);
+    background-size: cover;
+    top:0px;
+    display: flex;
+}
+
+.navo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 200px;
+    gap: 30px;
+}
+
+.navo h4{
+    font-family: 'Cherry Swash';
+    font-size: 20px;
+    color: #5B3803;
+    position: relative;
+}
+
+.navo h4::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2.5px;
+    background-color: #fbd6a18d;
+    left: 0;
+    border-radius: 2px;
+    top: 100%;
+    transition: 0.5s;
+}
+
+.navo h4:hover::after{
+    width: 100%;
+}
+
+#nav img{
+    height: 35px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+#Home{
+    background-image: url(./images/H_BG.png);
+    height: 632px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+}
+
+#Home img{
+    position: absolute;
+    pointer-events: none;
+}
+
+#dd{
+    top: 280px;
+    width: 100%;
+}
+
+#ddt{
+    top: 195px;
+    width:60%;
+    left: 480px;
+}
+
+#dm{
+    top: 350px;
+    width: 100%;
+    align-items: center;
+}
+#dt{
+    width:90%;
+    top: 1px;
+}
+
+#lm{
+    width: 100%;
+    top: 290px; 
+}
+
+#lt{
+    width: 100%;
+    top: 250px;
+}
+
+#logo{
+    height:340px;
+    
+    left: 39%;
+}
+#harry{
+    height: 95px;
+    top:120px;
+    left: 66%;
+}
+
+#snitch{
+    height: 50px;
+    top: 130px;
+    left: 20% ;
+}
+
+#ov{
+    width: 100%;
+}
+
+#ov img{
+    width: 100%;
+}
+
+#foot{
+    height: 0px;
+}
+
+#foot img{
+    height: 59px;
+    z-index: 999999;
+}
