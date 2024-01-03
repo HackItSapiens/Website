@@ -10,14 +10,14 @@ let lm = document.getElementById('lm');
 let dt = document.getElementById('dt');
 let dm = document.getElementById('dm');
 let dd = document.getElementById('dd');
-let ddt = document.getElementById('ddt');
-let lg = document.getElementById('logo');
-console.log("lt style",lt)
+let ddt = document.getElementById("ddt");
+let lg = document.getElementById("logo");
+
 window.addEventListener('scroll', function(){
     let value = window.scrollY;
-    lt.style.top = value * 0.25 + 'px';
+    lt.style.top = value * 0.25 + 'py';
     dd.style.top = value * 1.25 + 'px';
-    lg.stylle.top = value*1.25 +'px';
+    lg.stylle.top = value*1.25 +'py';
 })
 
 function footMouseFollower(){
