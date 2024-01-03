@@ -21,18 +21,19 @@ html, body{
     background-size: cover;
     top:0px;
     display: flex;
+    justify-content: space-between;
 }
 
 .navo{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-left: 200px;
+    margin-right: 100px;
     gap: 30px;
 }
 
 .navo h4{
-    font-family: 'Cherry Swash';
+    font-family:'Cherry Swash';
     font-size: 20px;
     color: #5B3803;
     position: relative;
@@ -62,7 +63,6 @@ html, body{
 
 #Home{
     background-image: url(./images/H_BG.png);
-    height: 632px;
     width: 100%;
     background-size: cover;
     display: flex;
@@ -76,6 +76,9 @@ html, body{
 #dd{
     top: 280px;
     width: 100%;
+    overflow: hidden;
+    position: fixed;
+   
 }
 
 #ddt{
@@ -106,7 +109,6 @@ html, body{
 
 #logo{
     height:340px;
-    
     left: 39%;
 }
 #harry{
@@ -122,12 +124,16 @@ html, body{
 }
 
 #ov{
-    width: 100%;
+    background-image: url(./images/Group\ 18.png);
+    width: 500px;
+    height: 500px;
 }
 
-#ov img{
+/* #ov img{
     width: 100%;
-}
+   
+   
+} */
 
 #foot{
     height: 0px;
