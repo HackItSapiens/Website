@@ -1,0 +1,511 @@
+@media (max-width:1024px){
+
+    /* common */
+
+    h1{
+        font-size: 1.9rem;
+    }
+
+    /* home section */
+    #home{
+        height: 89vh;
+    }
+
+    #logo{
+        top: 2rem;
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .background-images h2{
+        font-size: 1.4rem;
+        top: 14.5rem;
+        line-height: 6vh;
+    }
+
+    .btn{
+        top: 20rem;
+    }
+
+    /* about section */
+
+    #about{
+        height: 50vh;
+    }
+
+    .as p{
+        font-size: 1.4rem;
+        padding: 1rem 0 0 0;
+    }
+
+    /* hackathon track section */
+
+    #ht{
+        height: 103vh;
+    }
+
+    .ht-sub{
+        padding-top: 15vh;
+    }
+
+    .t11 img{
+        height: 20vh;
+    }
+
+    .t11 h2{
+        font-size: 1.4rem;
+    }
+
+    /* prizes section */
+
+    #pr{
+        height: 96vh;
+    }
+
+    .prizes h1{
+        margin-top: 4vh;
+    }
+
+    .tr1{
+        height: 52vh;
+    }
+
+    .tr2{
+        height: 80vh;
+    }
+
+    .tr3{
+        height: 50vh;
+    }
+
+    /* past sponsors section */
+
+    #ps{
+        height: 150vh;
+    }
+
+    .logos{
+        height: 50vh;
+    }
+
+    .r1{
+        width: 40%;
+    }
+
+    .r2{
+        width: 22%;
+    }
+
+    .r3{
+        width: 65%;
+    }
+    
+    .r4{
+        width: 58%;
+    }
+
+    .r5{
+        width: 30%;
+    }
+
+    #gfg,#hp,#fueler,#devfolio,#xyz,#polygon,#bee,#replit,#solana,#filecoin,#echo3D{
+        height: 5vh;
+    }
+
+    #iste,#ashrae{
+        height: 10vh;
+    }
+
+    #tb{
+        height: 55vh;
+    }
+
+    #down{
+        margin-top: 40vh;
+    }
+
+    /* past event section */
+
+    #pe{
+        height: 200vh;
+    }
+
+    .pe1{
+        width: 97vh;
+        height: 190vh;
+    }
+
+    .col{
+        margin-top: 5vh;
+        height: 80vh;
+    }
+
+    .row3,.row2{
+        height: 125vh;
+    }
+
+    #ele1,#ele2{
+        height: 36vh;
+    }
+
+    #ele3 p{
+        font-size: 8vh;
+        margin: 0;
+    }
+
+    #ele4 {
+        height: 31vh;
+    }
+
+    #ele4 img{
+        height:31vh;
+    }
+
+    #ele5 p{
+        font-size: 7vh ;
+        margin: 0;
+    }
+
+    #ele6 img{
+        height: 35vh;
+    }
+
+    #ele7 {
+        height: 28.7vh ;
+    }
+
+    #ele8 p{
+        font-size: 7vh ;
+    }
+
+    #ele9 img{
+        height: 30.7vh ;
+    }
+
+    #ele10 p{
+        font-size: 7vh ;
+    }
+
+    /* footer section */
+
+    #foot{
+        height: 30vh;
+    }
+
+    .l,.bs,.add,.ce{
+        margin-top: 0vh;
+    }
+
+    #foot h3{
+        font-size: 1.2rem;
+    }
+
+   .add p{
+        font-size: .85rem ;
+   }
+
+   .ce p{
+        font-size: .85rem ;
+    }
+
+    .bs p{
+        font-size: .85rem ;
+    }
+
+}
+
+@media (max-width:991px){
+
+    /* home section */
+
+    #home{
+        height: 83vh;
+    }
+
+    .background-images h2{
+        font-size: 1.3rem;
+        top: 14.5rem;
+    }
+
+    .btn{
+        top: 20rem;
+        font-size: 1.3rem;
+    }
+
+    /* about section */
+
+    .as p{
+        font-size: 1.22rem;
+        padding: 1rem 0 0 0;
+    }
+
+    /* hackathon track section */
+
+    #ht{
+        height: 93vh;
+    }
+
+    .ht-sub{
+        padding-top: 13vh;
+    }
+
+    .t1{
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+
+    /* prizes section */
+
+    #pr{
+        height: 85vh;
+    }
+
+    .prizes h1{
+        margin-top: 2vh;
+    }
+
+    .tr1{
+        height: 52vh;
+    }
+
+    .tr2{
+        height: 75vh;
+    }
+
+    .tr3{
+        height: 50vh;
+    }
+
+    /* past event section */
+
+    #pe{
+        height: 203vh;
+    }
+
+    /* footer section */
+
+    #foot{
+        height: 24vh;
+    }
+
+    .l,.bs,.add,.ce{
+        margin-top: 0vh;
+    }
+
+    #foot h3{
+        font-size: 1rem;
+    }
+
+   .add p{
+        font-size: .68rem ;
+   }
+
+   .ce p{
+        font-size: .68rem ;
+    }
+
+    .bs p{
+        font-size: .68rem ;
+    }
+
+}
+
+@media (max-width:767px){
+
+    /* common */
+
+    h1{
+        font-size: 1.6rem;
+    }
+
+    /* home section */
+    #home{
+        height: 63vh;
+    }
+
+    #logo{
+        top: 3rem;
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .background-images h2{
+        font-size: 1.1rem;
+        top: 11.5rem;
+    }
+
+    .btn{
+        top: 20rem;
+        font-size: 1.3rem;
+    }
+
+    /* about section */
+
+    #about{
+        height: 38vh;
+    }
+
+    .as p{
+        font-size: 0.9rem;
+        padding: 1rem 0 0 0;
+    }
+
+    /* hackathon track section */
+
+    #ht{
+        height: 76vh;
+    }
+
+    .ht-sub{
+        padding-top: 13vh;
+    }
+
+    .t11 img{
+        height: 14vh;
+    }
+
+    .t11 h2{
+        font-size: 1.3rem;
+    }
+
+    /* prizes section */
+
+    #pr{
+        height: 64vh;
+    }
+
+    .tr1{
+        height: 40vh;
+    }
+
+    .tr2{
+        height: 56vh;
+    }
+
+    .tr3{
+        height: 35vh;
+    }
+
+    /* past sponsors section */
+
+    #ps{
+        height: 123vh;
+    }
+
+    .logos{
+        height: 41vh;
+    }
+
+    #gfg,#hp,#fueler,#devfolio,#xyz,#polygon,#bee,#replit,#solana,#filecoin,#echo3D{
+        height: 4vh;
+    }
+
+    #iste,#ashrae{
+        height: 9vh;
+    }
+
+    #tb{
+        height: 44vh;
+    }
+
+    #down{
+        margin-top: 32.5vh;
+    }
+
+    /* past event section */
+
+    #pe{
+        height: 149.7vh;
+    }
+
+    .h h1{
+        margin-top: 0;
+    }
+
+    .pe1{
+        width: 84vh;
+        height: 148vh;
+    }
+
+    .col{
+        margin-top: 5vh;
+        height: 80vh;
+    }
+
+    .row3,.row2{
+        height: 96vh;
+    }
+
+    #ele1,#ele2{
+        height: 32vh;
+    }
+
+    #ele3 p{
+        font-size: 7.5vh;
+        margin: 0;
+    }
+
+    #ele4 {
+        height: 25vh;
+    }
+
+    #ele4 img{
+        height:24vh;
+    }
+
+    #ele5 p{
+        font-size: 5.65vh ;
+        margin: 0;
+    }
+
+    #ele6 img{
+        height: 26vh;
+    }
+
+    #ele7 img{
+        height: 26.6vh ;
+    }
+
+    #ele8 p{
+        font-size: 6.5vh ;
+    }
+
+    #ele9 img{
+        height: 28.7vh ;
+    }
+
+    #ele10 p{
+        font-size: 6.8vh ;
+    }
+
+    /* footer section */
+
+    #foot{
+        height: 24vh;
+    }
+
+    .l,.bs,.add,.ce{
+        margin-top: 0vh;
+    }
+
+    #foot h3{
+        font-size: .9rem;
+    }
+
+   .add p{
+        font-size: .65rem ;
+   }
+
+   .ce p{
+        font-size: .65rem ;
+    }
+
+    .bs p{
+        font-size: .65rem ;
+    }
+
+}
+
+@media (max-width:360px){
+    
+}

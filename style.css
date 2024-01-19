@@ -1,0 +1,495 @@
+:root{
+    --primary-color: #5B3803;
+    --secondary-color: #CB9235;
+    --white-color:#ffffff;
+    --primary-font: 'IM Fell DW Pica';
+    --secondary-font: 'Cherry Swash';
+}
+
+*{
+    box-sizing: border-box;
+    /* scroll-behavior: smooth; */
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url(./images/WEBSITE.png) ;
+    background-size: cover;
+    height: 60rem;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+/* LOADER  */
+
+#loading{
+    /* position: fixed; */
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./images/Wireframe\ -\ 7.png);
+    background-size: cover;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#loading img{
+    opacity: 0;
+    height: 3rem;
+    width: 3rem;
+    transition: 0.8s;
+}
+
+#loading img:hover{
+    opacity: 1;
+}
+
+#all{display: none;}
+
+/* NAVBAR SECTION */
+
+.container img{
+    width: 5rem;
+}
+
+.navigation-wrap{
+    background-image: url(./images/Nav\ BG.png);
+    background-repeat: unset;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 0.125rem 1.75rem 0 rgba(65, 59, 59, 0.09);
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.navigation-wrap .nav-item{
+    padding: 0 0.125rem;
+    transition: all 200ms linear;
+}
+
+.navbar-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+
+.nav-link{
+    font-family:var(--secondary-font);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-color)!important;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.navigation-wrap.scroll-on{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0.125rem 0.175rem 0 #d68c1c66;
+    transition: all .15s ease-in-out 0s;
+}
+
+/* HOME SECTION */
+
+#home{
+    width: 100%;
+    height: 110vh;
+}
+
+.background-images{
+    position: relative;
+    display: flex;
+}
+
+.background-images img{
+    position: absolute;
+    width: 100%;
+    animation: bounce 5s infinite;
+    transition: 0.5s;
+}
+
+@keyframes bounce{
+    70%{
+        transform: translateY(5px);
+    }
+}
+
+#logo{
+    top: 1rem;
+    height: 20rem;
+    width: 20rem;
+}
+
+.background-images h2{
+    position: absolute;
+    top: 18rem;
+    font-family: var(--primary-font);
+    color: #5B3803;
+    text-align: center;
+    line-height: 8vh;
+}
+
+.btn{
+    top: 27rem;
+    /* position: absolute; */
+    height: 4rem;
+    width: 15rem;
+    font-family: var(--primary-font);
+    background-color: #fde3bc6c;
+    color: var(--primary-color);
+    border: none;
+    box-shadow: 2px 2px 8px #5B3803;
+}
+
+.btn:hover{
+    background-color: #5B3803 !important;
+    color: var(--white-color);
+}
+
+/* ABOUT SECTION */
+#about{
+    width: 100%;
+    height: 61vh;
+}
+
+.as h1{
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+
+
+.as p{
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    text-align: justify;
+    font-size:xx-large;
+    padding: 2rem 0rem 0;
+}
+
+/* HACKATHON TRACK SECTION */
+#ht{
+    background-image:url(./images/ht\ bg.png);
+    background-size: cover;
+    height: 138vh;
+}
+
+
+.ht-sub{
+    padding-top: 25vh;
+}
+
+.ht-head{
+    font-family: var(--primary-font);
+    color: var(--white-color);
+    font-weight: bold;
+}
+
+.tracks{
+    /* overflow: hidden; */
+}
+
+.t1{
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+
+.t1,.t2 h2{
+    font-family: var(--primary-font);
+    color: var(--white-color);
+}
+
+.t11{
+    transition: 1s;
+}
+
+.t11:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+/* PRIZE SECTION */
+#pr{
+    height: 100vh;
+    /* background-image: url(./images/P\ BG.png);
+    background-size: cover; */
+}
+
+.prizes h1{
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-top: 10vh;
+}
+
+.tro1,.tro2,.tr03{
+    position: relative;
+}
+
+.tro1{
+    position: relative;
+    transform: translateX(200px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.tro1.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.txt1{
+    position: absolute;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 13vh;
+    text-shadow: #cb8d3189 1px 0 10px;
+}
+
+.trophie h2,h3{
+    font-weight: bold;
+}
+
+.txt2{
+    position: absolute;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 18vh;
+    text-shadow: #cb8d3189 1px 0 10px;
+}
+
+.txt3{
+    position: absolute;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 12vh;
+    text-shadow: #cb8d3189 1px 0 10px;
+}
+
+/* PAST SPONSORS */
+#ps{
+    width: 100%;
+    height: 200vh;
+    /* background-image: url(./images/Group\ 18.png);
+    background-size: cover; */
+    /* overflow: hidden; */
+}
+
+.psp{
+    width: 100%;
+    padding: 0;
+}
+
+.psp1 img{
+    width: 100%;
+}
+
+.psp2 h1{
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.logos{
+    width: 100%;
+    height: 70vh;
+}
+
+.r1{
+    width: 55%;
+}
+
+#gfg{
+    height: 7vh;
+}
+
+#hp{
+    height: 7vh;
+}
+
+.r2{
+    width: 38%;
+}
+
+#ashrae,#iste{
+    height: 15vh;
+}
+
+
+.r3{
+    width: 80%;
+}
+
+.r4{
+    width: 76%;
+}
+
+#fueler,#bee,#polygon,#devfolio{
+    height: 7vh;
+}
+
+.r5{
+    width: 40%;
+}
+
+#echo3D, #xyz{
+    height: 7vh;
+}
+
+#down{
+    position: absolute;
+    width: 100%;
+    margin-top: 52vh;
+}
+
+#down img{
+    width: 100%;
+}
+
+#tb{
+    height: 70vh;
+    position: relative;
+}
+
+/* PAST EVENT */
+#pe{
+    width: 100%;
+    height: 250vh;
+ /*    background-image: url(./images/Group\ 18.png);
+    background-size: cover; */
+    overflow: hidden;
+}
+
+.pe1{
+    width: 152vh;
+    height: 200vh;
+}
+
+.h h1{
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+
+.col{
+    width: 100%;
+    height: 100vh;
+    margin-top: 7vh;
+}
+
+.row1,.row2{
+    width: 100%;
+}
+
+.row1 img{
+    height: 58vh;
+    opacity: 0.71;
+    filter: contrast(140%) saturate(110%) sepia(20%) brightness(90%);
+    transition: 1s;
+}
+
+.row1 img:hover{
+    opacity: 1;
+    filter: none;
+}
+
+#ele4{
+    position: relative;
+    opacity: 0.64;
+    height: 53vh;
+    filter: contrast(140%) saturate(110%) sepia(20%) brightness(90%);
+    transition: 1s;
+}
+
+#ele3{
+    font-size: 10vh;
+    font-family: var(--primary-font) !important;
+    color: var(--primary-color);
+}
+
+#ele5{
+    font-size: 9.5vh;
+    font-family: var(--primary-font) !important;
+    color: var(--primary-color);
+}
+
+#ele6{
+    opacity: 0.65;
+    filter: contrast(120%) saturate(110%) sepia(10%) brightness(90%);
+    transition: 1s;
+}
+
+#ele7{
+    opacity: 0.80;
+    filter: contrast(120%) saturate(100%) sepia(10%) brightness(80%);
+    transition: 1s;
+}
+
+#ele8{
+    font-size: 10vh;
+    text-align: center;
+    font-family: var(--primary-font) !important;
+    color: var(--primary-color);
+}
+
+#ele9{
+    opacity: 0.63;
+    filter: contrast(150%) saturate(110%) sepia(20%) brightness(78%);
+    transition: 1s;
+}
+
+#ele10{
+    font-size: 10vh;
+    text-align: center;
+    font-family: var(--primary-font) !important;
+    color: var(--primary-color);
+}
+
+#ele4:hover, #ele6:hover, #ele7:hover, #ele9:hover{
+    opacity: 1;
+    filter: none;
+}
+
+/* FOOTER */
+
+#foot{
+    width: 100%;
+    height: 75vh;
+   /*  background-image: url(./images/bgfoot.png);
+    background-size: cover; */
+}
+
+.l,.bs,.add,.ce{
+    margin-top: 35vh;
+}
+
+.l img{
+    height: 10vh;
+}
+
+.add,.bs,.ce {
+    color: white;
+    font-family: 'IBM Plex Serif';
+}
