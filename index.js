@@ -4,9 +4,11 @@
 // });
 
 var myVar;
+var click;
 
 function loaderClick(){
-  
+  click = document.getElementById("loading");
+  click.addEventListener("click",myFunction);
 }
 
 function myFunction(){

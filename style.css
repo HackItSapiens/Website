@@ -22,7 +22,7 @@ html, body{
     height: 60rem;
 }
 
-.mobile{
+#htm,#psm,#pem{
     display: none;
 }
 
@@ -88,19 +88,8 @@ html, body{
     width: 100vw;
     background-image: url(./images/Wireframe\ -\ 7.png);
     background-size: cover;
-    overflow: hidden;
+    overflow-y: hidden;
     z-index: 1;
-}
-
-#loading img{
-    opacity: 0;
-    height: 3rem;
-    width: 3rem;
-    transition: 0.8s;
-}
-
-#loading img:hover{
-    opacity: 1;
 }
 
 #all{display: none;}
@@ -199,6 +188,16 @@ html, body{
     line-height: 8vh;
 }
 
+.btp{
+    display: flex; 
+    flex-direction: row; 
+    justify-content:center; 
+    gap: 20px; 
+    align-items: center; 
+    position: relative; 
+    margin-top: 450px;
+}
+
 .btn{
     top: 27rem;
     /* position: absolute; */
@@ -273,6 +272,102 @@ html, body{
 .t11:hover{
     transform: scale(1.2);
     z-index: 2;
+}  
+
+.bc{
+    position: relative;
+    transform: translateX(550px) translateY(110px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.bc.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.et{
+    position: relative;
+    transform: translateX(150px) translateY(110px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.et.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.ht{
+    position: relative;
+    transform: translateX(-150px) translateY(110px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.ht.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.gam{
+    position: relative;
+    transform: translateX(-550px) translateY(110px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.gam.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.oi{
+    position: relative;
+    transform: translateX(550px) translateY(-110px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.oi.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.av{
+    position: relative;
+    transform: translateX(150px) translateY(-110px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.av.active{
+    transform: translateY(0px) translateX(0);
+    opacity: 1;
+}
+
+.io{
+    position: relative;
+    transform: translateX(-150px) translateY(-110px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.io.active{
+    transform: translateY(0px) translateX(0);
+    opacity: 1;
+}
+
+.rp{
+    position: relative;
+    transform: translateX(-550px) translateY(-110px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.rp.active{
+    transform: translateY(0px);
+    opacity: 1;
 }
 
 /* PRIZE SECTION */
@@ -291,11 +386,23 @@ html, body{
     position: relative;
 }
 
+.tro3{
+    position: relative;
+    transform: translateX(-200px);
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+
+.tro3.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
 .tro1{
     position: relative;
     transform: translateX(200px);
     opacity: 0;
-    transition: all 1s ease;
+    transition: all 1.5s ease;
 }
 
 .tro1.active{

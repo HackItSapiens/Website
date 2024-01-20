@@ -1,4 +1,4 @@
-@media (max-width:1024px){
+@media screen and (max-width:1024px){
 
     /* common */
 
@@ -222,7 +222,7 @@
 
 }
 
-@media (max-width:991px){
+@media screen and (max-width:991px){
 
     .mobile{
         display: none;
@@ -326,7 +326,7 @@
 
 }
 
-@media (max-width:767px){
+@media screen and (max-width:767px){
 
     .mobile{
         display: none;
@@ -526,11 +526,11 @@
 
 }
 
-@media (max-width:360px){
+@media screen and (max-width:360px){
 
     /* COMMON */
 
-    .mobile{
+    #htm,#psm,#pem{                
         display: block;
     }
 
@@ -545,48 +545,74 @@
     .html, body{
         background-image: url(./images/Android\ Large\ -\ 1.png) ;
         background-size: cover;
+        height: 115.5rem;
+    }
+
+    /* LOADER */
+
+    #loading{
+        background-image: url(./images/map\ mobile.png);
+        background-size: cover;
+        overflow-y: hidden;
     }
 
     /* HOME */
 
     #home{
-        height: 49vh;
+        height: 48vh;
     }
 
     #logo{
-        top: 4rem;
+        top: 3rem;
         height: 7rem;
         width: 7rem;
+    }
+
+    #lighttree,#light,#darktree,#dark,#darker,#darkertree{
+        top: 7.5rem
     }
     
     .background-images h2{
         font-size: 0.7rem;
-        top: 9.8rem;
+        top: 8.8rem;
         line-height: 3vh;
     }
 
+    .btp{
+        margin:0;
+        gap: 15px;
+    }
+
     .btn{
+        top: 11.6rem;
         font-size: 0.65rem;
-        top: 12.6rem;
         height: 1.5rem;
         width: 5rem;
+        margin: 0;
+        padding: 0;
     }
 
     /* OVERVIEW */
 
     #about{
-        height: 16.8vh;
+        height: 34.8vh;
     }
 
-    .as h6{
-        font-size: 0.5rem;
+    .as p{
+        font-size: 0.7rem;
         padding: 0.5rem 1rem 0rem 1rem;
     }
 
     /* HACKATHON TRACKS */
 
-    #ht{
+    #htm{
+        background-image:url(./images/ht\ bg.png);
+        background-size: cover;
         height: 40vh;
+    }
+
+    .ht-sub{
+        padding-top: 8vh;
     }
 
     .tracks{
@@ -638,7 +664,7 @@
     /* PRIZES */
 
     #pr{
-        height: 37vh;
+        height: 35vh;
     }
 
     .prizes h1{
@@ -677,8 +703,8 @@
 
     /* PAST SPONSORS */
 
-    #ps{
-        height: 89vh;
+    #psm{
+        height: 82vh;
     }
 
     .psp{
@@ -686,7 +712,7 @@
     }
 
     .logos{
-        height: 45vh;
+        height: 40vh;
     }
 
     .r1{
@@ -727,10 +753,14 @@
         height: 20vh;
     }
 
+    #down{
+        margin-top: 18.5vh;
+    }
+
     /* PAST EVENT */
 
-    #pe{
-        height: 38vh;
+    #pem{
+        height: 31vh;
     }
 
     .pe1{
@@ -744,7 +774,7 @@
     }
 
     #c2{
-        height: 30rem;
+        height: 11rem;
     }
     
     .ci2{
@@ -765,18 +795,22 @@
     /* FOOTER */
 
     #foot{
-        height: 17vh;
+        height: 23vh;
     }
     
     .f{
         position: relative;
-        height: 15vh;
+        height: 22vh;
         width: 100%;
     }
     
     .l,.bs,.add,.ce{
         height: 7vh;
         margin-top: 3vh;
+    }
+
+    #foot h3{
+        font-size: 0.6rem;
     }
     
     .icons a{
@@ -786,6 +820,8 @@
     .icons svg{
         top: 0.2vh;
         position: absolute;
+        width: 1.5vh;
+        height: 1.5vh;
     }
     
     .l img{
@@ -797,6 +833,14 @@
     .add{
         top: 1vh;
     }
+
+    .ce1{
+        height: 6vh;
+    }
+
+    .ce p{
+        margin-bottom: 0;
+    }
     
     .ce a{
         position: relative;
@@ -804,7 +848,7 @@
     }
     
     .bs1{
-        height: 4vh;
+        height: 5vh;
     }
     
     .add h3, .bs h3, .ce h3{
@@ -813,7 +857,7 @@
     } 
     
     .add p, .bs p, .ce p{
-        font-size: 0.2rem;
+        font-size: 0.4rem;
     }
     
 }
