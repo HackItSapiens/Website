@@ -8,7 +8,7 @@
 
 *{
     box-sizing: border-box;
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
 }
@@ -22,6 +22,12 @@ html, body{
     height: 60rem;
 }
 
+.mobile{
+    display: none;
+}
+
+/* SCROLL ANIMATION */
+
 .reveal{
     position: relative;
     transform: translateY(150px);
@@ -33,6 +39,46 @@ html, body{
     transform: translateY(0px);
     opacity: 1;
 }
+
+/* SCROLL_BAR ANIMATION */
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #563c04 #fbe2c4;
+  }
+  
+  /* Chrome, Edge and Safari */
+  *::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #D8AD6C;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #e4d29e98;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #e0cc9569;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #483109;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #5c4103;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #483109;
+  }
+  
 
 /* LOADER  */
 
@@ -66,8 +112,7 @@ html, body{
 }
 
 .navigation-wrap{
-    background-image: url(./images/Nav\ BG.png);
-    background-repeat: unset;
+    background-color: rgba(238, 210, 169, 0.297);
     position: fixed;
     width: 100%;
     left: 0;
@@ -85,6 +130,15 @@ html, body{
     outline: unset;
     border: unset;
     box-shadow: none;
+}
+
+.navbar-nav a{
+        transition: 1s;
+}
+
+.navbar-nav a:hover{
+    transform: scale(1.1);
+    z-index: 2;
 }
 
 .nav-link{
@@ -202,10 +256,6 @@ html, body{
     font-weight: bold;
 }
 
-.tracks{
-    /* overflow: hidden; */
-}
-
 .t1{
     margin-top: 7vh;
     margin-bottom: 7vh;
@@ -228,8 +278,6 @@ html, body{
 /* PRIZE SECTION */
 #pr{
     height: 100vh;
-    /* background-image: url(./images/P\ BG.png);
-    background-size: cover; */
 }
 
 .prizes h1{
@@ -290,9 +338,6 @@ html, body{
 #ps{
     width: 100%;
     height: 200vh;
-    /* background-image: url(./images/Group\ 18.png);
-    background-size: cover; */
-    /* overflow: hidden; */
 }
 
 .psp{
@@ -375,8 +420,6 @@ html, body{
 #pe{
     width: 100%;
     height: 250vh;
- /*    background-image: url(./images/Group\ 18.png);
-    background-size: cover; */
     overflow: hidden;
 }
 
@@ -477,8 +520,8 @@ html, body{
 #foot{
     width: 100%;
     height: 75vh;
-   /*  background-image: url(./images/bgfoot.png);
-    background-size: cover; */
+    background-image: url(./images/fbg.png);
+    background-size: cover;
 }
 
 .l,.bs,.add,.ce{
