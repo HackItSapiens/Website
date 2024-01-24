@@ -1555,7 +1555,7 @@
     /* HOME */
 
     #home{
-        height: 37vh;
+        height: 38vh;
     }
 
     #logo{
@@ -1901,7 +1901,7 @@
 
 @media screen and (max-width:391px) {
     html,body{
-        background-image: url(./images/Android\ Large\ -\ 3.png);
+        background-image: url(./images/Android\ Large\ -\ 4.png);
         background-size: cover;
         height: 129rem;
     }
@@ -2311,9 +2311,9 @@
     }
 
     .html, body{
-        background-image: url(./images/Android\ Large\ -\ 1.png) ;
+        background-image: url(./images/Android\ Large\ -\ 4.png) ;
         background-size: cover;
-        height: 115.5rem;
+        /* height: 115.5rem; */
     }
 
     /* LOADER */
@@ -2635,3 +2635,4 @@
     }
     
 }
+
