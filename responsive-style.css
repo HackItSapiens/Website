@@ -692,26 +692,30 @@
         position: relative;
         top: 20rem;
         font-size: 1.3rem;
-        margin-top: 321px;
+        margin-top: 318px;
         width: 11rem;
         height: 2.5rem;
     }
 
     /* about section */
 
+    #about{
+        height: 57vh;
+    }
+
     .as p{
-        font-size: 1.22rem;
+        font-size: 1.3rem;
         padding: 1rem 0 0 0;
     }
 
     /* hackathon track section */
 
     #ht{
-        height: 93vh;
+        height: 100vh;
     }
 
     .ht-sub{
-        padding-top: 13vh;
+        padding-top: 16vh;
     }
 
     .t1{

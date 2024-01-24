@@ -804,7 +804,7 @@ html, body{
 #ele4{
     position: relative;
     opacity: 0.64;
-    height: 53vh;
+    height: 46vh;
     filter: contrast(140%) saturate(110%) sepia(20%) brightness(90%);
     transition: 1s;
 }
@@ -822,6 +822,7 @@ html, body{
 }
 
 #ele6{
+    height: 50vh;
     opacity: 0.65;
     filter: contrast(120%) saturate(110%) sepia(10%) brightness(90%);
     transition: 1s;
