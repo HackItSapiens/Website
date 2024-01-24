@@ -21,6 +21,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./responsive-style.css">
 
@@ -28,8 +30,75 @@
   <body id="#main" onload="loaderClick()">
 
     <div id="loading" >
+
+      <div class="bg" onclick="imgTrans()">
+        <img src="./images/Wireframe - 71.png" class="img1" alt="">
+        <img src="./images/Wireframe - 72.png" class="img2" alt="">
       </div>
 
+      <svg id="svg-sprite">
+        <symbol id="paw" viewBox="0 0 249 209.32">
+        <image xlink:href="http://icons.veryicon.com/png/System/Icons8%20Metro%20Style/Tracks%20Footprints%20Left%20shoe.png" x="0" y="0" height="100px" width="100px"/>
+        </symbol>
+      </svg>
+      
+      <div class="ajax-loader">
+        <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+        <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+        <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+        <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+        <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+        <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+        
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+        <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+        <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+        <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+
+      </div>
+
+      <div class="ajax-loader2">
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          
+              <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+      </div>
+  
+      <div class="ajax-loader3">
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          
+              <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+      </div>
+        
+      <div class="ajax-loader4">
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          
+              <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+          <div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+      </div> 
+      
     </div>
 
     <div id="all" >
@@ -71,6 +140,12 @@
       <!-- section-1 top-banner -->
       <section id="home" >
           <div class="container-fluid px-0 top-banner">
+              <div class="pp">
+                <img src="./images/13.png" class="potter" alt="">
+              </div>
+              <div class="sp">
+                <img src="./images/14.png" class="snitch" alt="">
+              </div>
               <div class="background-images d-flex justify-content-center" >
                   <img src="./images/liight tree.png" id="lighttree" alt="" >
                   <img src="./images/mountain light.png" id="light" alt="" >
@@ -445,14 +520,14 @@
                 <div id="ele3">
                   <p>500+ <br> Hackers</p>
                 </div>
-                <div id="ele4">
-                  <img  src="./images/IMG_9319 1.png" alt="">
+                <div >
+                  <img  src="./images/IMG_9319 1.png" id="ele4" alt="">
                 </div>
                 <div id="ele5">
                   <p>2,500+ <br> Applications</p>
                 </div>
-                <div id="ele6">
-                  <img src="./images/al7958_hackthon_1404_to_170423295 1.png" alt="">
+                <div >
+                  <img src="./images/al7958_hackthon_1404_to_170423295 1.png" id="ele6" alt="">
                 </div>
                 
               </div>
@@ -464,8 +539,8 @@
                 <div id="ele8">
                   <p>100+ <br> Projects Submitted</p>
                 </div>
-                <div id="ele9">
-                  <img src="./images/IMG_5426-Edit 1.png" alt="">
+                <div >
+                  <img src="./images/IMG_5426-Edit 1.png" id="ele9" alt="">
                 </div>
                 <div id="ele10">
                   <p>Bounties Worth <br> 5,000+</p>
@@ -546,7 +621,7 @@
       <!-- FOOTER -->
       <section id="foot">
         <div class="container-fluid">
-          <div class="f d-flex flex-row justify-content-around align-items-center">
+          <div class="f d-flex flex-row justify-content-around justify-content-center align-items-center">
             <div class="l">
               <img src="./images/Artboard 2.6.png" alt="">
             </div>

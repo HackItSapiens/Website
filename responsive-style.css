@@ -1,3 +1,291 @@
+@media screen and (max-width:1344px) {
+    /* common */
+
+    .mobile{
+        display: none;
+    }
+
+    /* home section */
+    #home{
+        height: 82vh;
+    }
+
+    .background-images h2{
+        line-height: 6vh;
+    }
+
+    .btp{
+        margin-top: 404px;
+    }
+
+    .potter{
+        position: absolute;
+        margin-left: 75rem;
+        margin-top: 6rem ;
+        height: 5rem;
+        animation:  xp-axis 10s infinite linear ;
+    }
+    
+    @keyframes yp-axis{
+        50%{
+            transform: translateY(280px);
+        }
+    }
+    
+    @keyframes xp-axis{
+        50%{
+            transform: translateX(-300px);
+        }
+    }
+    
+    @keyframes y-axis{
+        50%{
+            transform: translateY(200px);
+        }
+    }
+    
+    @keyframes x-axis{
+        50%{
+            transform: translateX(100px);
+        }
+    }
+
+    /* about section */
+
+    #about{
+        height: 59vh;
+    }
+
+    /* hackathon track section */
+
+    #ht{
+        height: 97vh;
+    }
+
+    .ht-sub{
+        padding-top: 13vh;
+    }
+
+    .t1 {
+        margin-top: 4vh;
+        margin-bottom: 3vh;
+    }
+
+    /* prizes section */
+
+    #pr{
+        height: 77vh;
+    }
+
+    .prizes h1{
+        margin-top: 3vh;
+    }
+
+    .txt1{
+        margin-top: 12vh;
+    }
+
+    .txt2{
+        margin-top: 15vh;
+    }
+
+    .txt3{
+        margin-top: 12vh;
+    }
+
+    /* past sponsors section */
+
+    #ps{
+        height: 169vh;
+    }
+
+    .logos{
+        height: 70vh;
+    }
+
+    .r1{
+        width: 65%;
+    }
+
+    .r2{
+        width: 38%;
+    }
+
+    .r3{
+        width: 95%;
+    }
+    
+    .r4{
+        width: 90%;
+    }
+
+    .r5{
+        width: 60%;
+    }
+
+    #gfg,#hp,#fueler,#devfolio,#xyz,#polygon,#bee,#replit,#solana,#filecoin,#echo3D{
+        height: 7vh;
+    }
+
+    #iste,#ashrae{
+        height: 14vh;
+    }
+
+    #tb{
+        height: 58vh;
+        margin-top: 1.5vh;
+    }
+
+    #down{
+        margin-top: 44vh;
+    }
+
+    /* past event section */
+
+    #pe{
+        height: 203vh;
+    }
+
+    .pe1{
+        width: 105vh;
+        height: 170vh;
+    }
+
+    .col{
+        margin-top: 5vh;
+        height: 80vh;
+    }
+
+    .row3,.row2{
+        height: 130vh;
+    }
+
+    #ele1,#ele2{
+        height: 40vh;
+    }
+
+    #ele3 p{
+        font-size: 8vh;
+        margin: 0;
+    }
+
+    #ele4 {
+        height: 31vh;
+    }
+
+    #ele4 {
+        height:35vh;
+    }
+
+    #ele5 p{
+        font-size: 7vh ;
+        margin: 0;
+    }
+
+    #ele6 {
+        height: 38vh;
+    }
+
+    #ele7 {
+        height: 30.1vh ;
+    }
+
+    #ele8 p{
+        font-size: 7vh ;
+    }
+
+    #ele9 {
+        height: 32.1vh ;
+    }
+
+    #ele10 p{
+        font-size: 7vh ;
+    }
+
+    /* footer section */
+
+    #foot{
+        height: 34vh;
+    }
+
+    .f{
+        height: 25vh;
+    }
+
+    .l, .bs, .add, .ce {
+        margin-top: 17vh;
+    }
+
+}
+
+@media screen and (max-width:1344px){
+    /* common */
+
+    .mobile{
+        display: none;
+    }
+
+    /* home section */
+    #home{
+        height: 79vh;
+    }
+
+    .background-images h2{
+        line-height: 5vh;
+    }
+
+    .btp{
+        margin-top: 392px;
+    }
+
+    .btn{
+        height: 3rem;
+        width: 13rem;
+    }
+
+    .potter{
+        position: absolute;
+        margin-left: 65rem;
+        margin-top: 6rem ;
+        height: 5rem;
+        animation:  xp-axis 10s infinite linear ;
+    }
+    
+    @keyframes yp-axis{
+        50%{
+            transform: translateY(280px);
+        }
+    }
+    
+    @keyframes xp-axis{
+        50%{
+            transform: translateX(-280px);
+        }
+    }
+    
+    @keyframes y-axis{
+        50%{
+            transform: translateY(200px);
+        }
+    }
+    
+    @keyframes x-axis{
+        50%{
+            transform: translateX(100px);
+        }
+    }
+
+    /* footer section */
+
+    .add h3, .ce h3, .bs h3{
+        font-size: 1.25rem;
+    }
+
+    .add p, .ce p, .bs p{
+        font-size: 0.9rem;
+    }
+}
+
 @media screen and (max-width:1024px){
 
     /* common */

@@ -20,6 +20,11 @@ function onclick() {
   document.getElementById('all').style.display = 'block';
 }
 
+function imgTrans(){
+  document.querySelectorAll('.img1').classList.add('fadeOut');
+  document.querySelector('.img2').classList.add('fadeOut');
+}
+
 
 window.addEventListener('scroll', reveal);
 
