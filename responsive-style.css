@@ -286,6 +286,126 @@
     }
 }
 
+@media screen and (max-width:1152px){
+     /* common */
+
+     .mobile{
+        display: none;
+    }
+
+    h1{
+        font-size: 1.9rem;
+    }
+
+    /* home section */
+    #home{
+        height: 71vh;
+    }
+
+    #logo{
+        top: 2rem;
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .background-images h2{
+        font-size: 1.7rem;
+        top: 14.5rem;
+        line-height: 6vh;
+    }
+
+    .btp{
+        margin-top: 340px;
+    }
+
+    .btn{
+        margin-top: 0px;
+    }
+
+    .potter{
+        position: absolute;
+        margin-left: 60rem;
+        margin-top: 6rem ;
+        height: 5rem;
+        animation:  xp-axis 10s infinite linear ;
+    }
+    
+    @keyframes yp-axis{
+        50%{
+            transform: translateY(280px);
+        }
+    }
+    
+    @keyframes xp-axis{
+        50%{
+            transform: translateX(-280px);
+        }
+    }
+    
+    @keyframes y-axis{
+        50%{
+            transform: translateY(200px);
+        }
+    }
+    
+    @keyframes x-axis{
+        50%{
+            transform: translateX(100px);
+        }
+    }
+
+    /* about section */
+
+    #about{
+        height: 56vh;
+    }
+
+    .as p{
+        font-size: 1.7rem;
+    }
+
+    /* hackathon track section */
+
+    #ht{
+        height: 85vh;
+    }
+
+    .ht-sub{
+        padding-top: 11vh;
+    }
+
+    .t11 img{
+        height: 20vh;
+    }
+
+    .t11 h2{
+        font-size: 1.4rem;
+    }
+
+    /* past sponsors section */
+
+    #ps {
+        height: 150vh;
+    }
+
+    .logos{
+        position: relative;
+        top: 2vh;
+        height: 58vh;
+    }
+
+    #gfg,#hp,#fueler,#devfolio,#xyz,#polygon,#bee,#replit,#solana,#filecoin,#echo3D{
+        height: 6vh;
+    }
+
+    #down {
+        margin-top: 45vh;
+    }
+
+
+
+}
+
 @media screen and (max-width:1024px){
 
     /* common */
@@ -315,10 +435,47 @@
         line-height: 6vh;
     }
 
+    .btp{
+        margin-top: 0;
+    }
+
     .btn{
+        font-size: 1.3rem;
         margin-top: 321px;
         width: 11rem;
         height: 2.7rem;
+    }
+
+    .potter{
+        position: absolute;
+        margin-left: 55rem;
+        margin-top: 6rem ;
+        height: 5rem;
+        animation:  xp-axis 10s infinite linear ;
+    }
+    
+    @keyframes yp-axis{
+        50%{
+            transform: translateY(280px);
+        }
+    }
+    
+    @keyframes xp-axis{
+        50%{
+            transform: translateX(-280px);
+        }
+    }
+    
+    @keyframes y-axis{
+        50%{
+            transform: translateY(200px);
+        }
+    }
+    
+    @keyframes x-axis{
+        50%{
+            transform: translateX(100px);
+        }
     }
 
 
@@ -423,11 +580,11 @@
     /* past event section */
 
     #pe{
-        height: 200vh;
+        height: 190vh;
     }
 
     .pe1{
-        width: 97vh;
+        width: 100vh;
         height: 190vh;
     }
 
@@ -437,11 +594,11 @@
     }
 
     .row3,.row2{
-        height: 125vh;
+        height: 120vh;
     }
 
     #ele1,#ele2{
-        height: 36vh;
+        height: 38vh;
     }
 
     #ele3 p{
@@ -453,7 +610,7 @@
         height: 31vh;
     }
 
-    #ele4 img{
+    #ele4 {
         height:31vh;
     }
 
@@ -462,7 +619,7 @@
         margin: 0;
     }
 
-    #ele6 img{
+    #ele6 {
         height: 35vh;
     }
 
@@ -474,7 +631,7 @@
         font-size: 7vh ;
     }
 
-    #ele9 img{
+    #ele9 {
         height: 30.7vh ;
     }
 
@@ -485,27 +642,31 @@
     /* footer section */
 
     #foot{
-        height: 30vh;
+        height: 35vh;
+    }
+
+    .f{
+        height: 35vh;
     }
 
     .l,.bs,.add,.ce{
-        margin-top: 0vh;
+        margin-top: 6vh;
     }
 
     #foot h3{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
    .add p{
-        font-size: .85rem ;
+        font-size: .8rem ;
    }
 
    .ce p{
-        font-size: .85rem ;
+        font-size: .8rem ;
     }
 
     .bs p{
-        font-size: .85rem ;
+        font-size: .8rem ;
     }
 
 }

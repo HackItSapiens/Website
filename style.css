@@ -861,8 +861,10 @@ html, body{
 /* FOOTER */
 
 #foot{
+    position: relative;
     width: 100%;
     height: 65vh;
+    bottom: 0;
     background-image: url(./images/fbg.png);
     background-size: cover;
 }
