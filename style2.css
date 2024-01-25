@@ -67,6 +67,12 @@ html, body{
     color: var(--white-color);
 }
 
+.accordion{
+    --bs-accordion-btn-color: #5B3803;
+    --bs-accordion-active-color: #5B3803 ;
+}
+
+text-emphasis
 .accordion-button:focus{
     box-shadow: 2px 2px 8px #5B3803;
     outline: none;
@@ -82,3 +88,124 @@ html, body{
 }
 
 
+@media screen and (max-width:1152px) {
+    .btn{
+        margin-left: 1vh;
+    }
+}
+
+@media screen and (max-width:1152px) {
+    .faq {
+        margin-top: 7vh;
+        margin-bottom: 3vh;
+    }
+
+    .container{
+        max-width: 863px;
+    }
+}
+
+@media screen and (max-width:915px){
+    .container {
+        max-width: 714px;
+    }
+
+    .faq {
+        margin-top: 10vh;
+        margin-bottom: 8vh;
+    }
+
+    .faq h1{
+        font-size: 3.5rem;
+    }
+
+    .accordion-button{
+        font-size: 1.5rem;
+        height: 5rem;
+    }
+
+    .accordion-collapse{
+        font-size: 1.5rem;
+    }
+
+    .btn{
+        margin-left: 2vh;
+    }
+}
+
+@media screen and (max-width:768px){
+    .faq {
+        margin-top: 7vh;
+        margin-bottom: 4vh;
+    }
+}
+
+@media screen and (max-width: 540px){
+
+    .faq {
+        margin-top: 5vh;
+        margin-bottom: 4vh;
+    }
+
+    .faq h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        max-width: 442px;
+    }
+
+    .accordion-button{
+        font-size: 1rem;
+        height: 3.5rem;
+    }
+
+    .accordion-collapse{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    .faq {
+        margin-top: 8vh;
+        margin-bottom: 6vh;
+    }
+
+    .faq h1 {
+        font-size: 2.5rem;
+    }
+
+    .container {
+        max-width: 372px;
+    }
+
+    .accordion-button{
+        height: 4rem;
+    }
+}
+
+@media screen and (max-width:380px){
+    .faq {
+        margin-top: 8vh;
+        margin-bottom: 6vh;
+    }
+
+    .faq h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        max-width: 300px;
+    }
+
+    .accordion-button{
+        font-size: 0.7rem;
+        height: 3rem;
+    }
+
+    .accordion-collapse{
+        font-size: 0.7rem;
+    }
+
+}

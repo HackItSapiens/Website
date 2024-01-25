@@ -11,6 +11,7 @@
     }
 
     .background-images h2{
+
         line-height: 6vh;
     }
 
@@ -54,6 +55,10 @@
 
     #about{
         height: 59vh;
+    }
+
+    .as h1{
+        top: 0;
     }
 
     /* hackathon track section */
@@ -225,6 +230,12 @@
         display: none;
     }
 
+    #loading{
+        background-image: url(./images/map1248.png);
+        background-size: cover;
+        overflow-y: hidden;
+    }
+
     /* home section */
     #home{
         height: 79vh;
@@ -286,6 +297,76 @@
     }
 }
 
+@media screen and (max-width:1246px) {
+    #logo {
+        top: 0rem;
+    }
+
+    .background-images h2{
+        font-size: 1.7rem;
+        top: 17rem;
+        line-height: 7vh;
+    }
+
+    .btp {
+        margin-top: 373px;
+    }
+
+    #home {
+        height: 101vh;
+    }
+
+    #about {
+        height: 86vh;
+    }
+
+    .as h1{
+        position: relative;
+        top: 3vh;
+    }
+
+    #ht {
+        height: 118vh;
+    }
+
+    .ht-sub {
+        padding-top: 17vh;
+    }
+
+    .t11 img{
+        height: 9rem;
+    }
+
+    #pr {
+        height: 100vh;
+    }
+
+    .logos {
+        height: 77vh;
+    }
+
+    #tb {
+        height: 58vh;
+        margin-top: 3.5vh;
+    }
+
+    #down {
+        margin-top: 45vh;
+    }
+
+    #ps {
+        height: 193vh;
+    }
+
+    #foot {
+        height: 46vh;
+    }
+
+    .f {
+        height: 38vh;
+    }
+}
+
 @media screen and (max-width:1152px){
      /* common */
 
@@ -295,6 +376,12 @@
 
     h1{
         font-size: 1.9rem;
+    }
+
+    #loading{
+        background-image: url(./images/map1152.png);
+        background-size: cover;
+        overflow-y: hidden;
     }
 
     /* home section */
@@ -402,6 +489,14 @@
         margin-top: 45vh;
     }
 
+    #foot{
+        height: 40vh;
+    }
+
+    .f{
+        height: 33vh;
+    }
+
 
 
 }
@@ -417,9 +512,15 @@
        font-size: 1.9rem;
    }
 
+   #loading{
+    background-image: url(./images/map1056.png);
+    background-size: cover;
+    overflow-y: hidden;
+}
+
    /* home section */
    #home{
-       height: 89vh;
+       height: 74vh;
    }
 
    .background-images h2{
@@ -438,7 +539,7 @@
 
    .potter{
        position: absolute;
-       margin-left: 60rem;
+       margin-left: 56rem;
        margin-top: 6rem ;
        height: 5rem;
        animation:  xp-axis 10s infinite linear ;
@@ -471,7 +572,7 @@
    /* about section */
 
    #about{
-       height: 60vh;
+       height: 53vh;
    }
 
    .as p{
@@ -481,7 +582,7 @@
    /* hackathon track section */
 
    #ht{
-       height: 100vh;
+       height: 92vh;
    }
 
    .ht-sub{
@@ -491,7 +592,7 @@
    /* prizes section */
 
    #pr{
-    height: 93vh;
+    height: 85vh;
     }
 
     .prizes h1{
@@ -507,51 +608,62 @@
     }
 
     .txt2{
-        margin-top: 18vh;
+        margin-top: 17vh;
     }
 
     .tr1{
-        height: 58vh;
+        height: 54vh;
     }
 
     .tr2{
-        height: 80vh;
+        height: 70vh;
     }
 
     .tr3{
-        height: 55vh;
+        height: 50vh;
     }
 
    /* past sponsors section */
 
    #ps {
-       height: 155vh;
+       height: 150vh;
    }
 
    .logos{
-       height: 52vh;
+       height: 54vh;
    }
 
    .r1{
-    width: 50%;
+    width: 60%;
    }
 
    .r2{
-    width: 30%;
+    width: 40%;
    }
 
    .r3{
-    width: 80%;
+    width: 90%;
    }
 
    .r4{
-    width: 75%;
+    width: 85%;
    }
 
    .r5{
-    width: 35%;
+    width: 40%;
    }
 
+   #tb{
+    margin-top: 2rem;
+   }
+
+   #down{
+    margin-top: 48vh;
+   }
+
+   .h h1{
+    margin-top: 3vh;
+   }
 
    #gfg,#hp,#fueler,#devfolio,#xyz,#polygon,#bee,#replit,#solana,#filecoin,#echo3D{
        height: 6vh;
@@ -560,6 +672,14 @@
    #down {
        margin-top: 45vh;
    }
+
+   .row3, .row2 {
+    height: 120vh;
+    }
+
+    #pe {
+        height: 183vh;
+    }
 
    #foot{
     height: 37vh;
@@ -590,6 +710,12 @@
 
     h1{
         font-size: 1.9rem;
+    }
+
+    #loading{
+        background-image: url(./images/map1024.png);
+        background-size: cover;
+        overflow-y: hidden;
     }
 
     /* home section */
@@ -857,16 +983,20 @@
         height: 83vh;
     }
 
+    #logo{
+        top: 1rem;
+    }
+
     .background-images h2{
         font-size: 1.3rem;
-        top: 14.5rem;
+        top: 13.5rem;
     }
 
     .btn{
         position: relative;
         top: 20rem;
         font-size: 1.3rem;
-        margin-top: 318px;
+        margin-top: 303px;
         width: 11rem;
         height: 2.5rem;
     }
@@ -874,7 +1004,7 @@
     /* about section */
 
     #about{
-        height: 57vh;
+        height: 60vh;
     }
 
     .as p{
@@ -953,7 +1083,641 @@
 
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width: 915px){
+    .mobile{
+        display: none;
+    }
+
+    /* common */
+
+    h1{
+        font-size: 1.6rem;
+    }
+
+    #loading{
+        background-image: url(./images/map915.png);
+        background-size: cover;
+        overflow-y: hidden;
+    }
+
+    /* home section */
+    #home{
+        height: 39vh;
+    }
+
+    #logo{
+        top: 3rem;
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .background-images h2{
+        font-size: 1.1rem;
+        top: 12.5rem;
+        line-height: 1.7rem;
+    }
+
+    #lighttree,#light,#darktree,#dark,#darker,#darkertree{
+        top: 3.5rem
+    }
+
+    .btn{
+        top: 0rem;
+        font-size: 1.3rem;
+        margin-top: 275px;
+        width: 10rem;
+        font-size: 1.2rem;
+    }
+
+    .sp{
+        animation: none;
+    }
+    
+    .pp{
+        animation: none;
+    }
+
+    .potter{
+        position: absolute;
+        margin-left: 45rem;
+        margin-top: 6rem ;
+        height: 4rem;
+        animation:  none ;
+    }
+
+    .snitch{
+        position: absolute;
+        height: 2rem;
+        width: 3.5rem;
+        margin-left: 8rem;
+        margin-top: 6rem ;
+        animation:  none;
+    }
+    
+
+    /* about section */
+
+    #about{
+        height: 22vh;
+    }
+
+    .as p{
+        font-size: 1.2rem;
+        padding: 1rem 0 0 0;
+    }
+
+    .as h1{
+        top: 0;
+    }
+
+    /* hackathon track section */
+
+    #ht{
+        height: 49vh;
+    }
+
+    .ht-sub{
+        padding-top: 8vh;
+    }
+
+    .t11 img{
+        height: 10vh;
+    }
+
+    .t11 h2{
+        font-size: 1.3rem;
+    }
+
+    /* prizes section */
+
+    #pr{
+        height: 39vh;
+    }
+
+    .tr1{
+        height: 28vh;
+    }
+
+    .tr2{
+        height: 33vh;
+    }
+
+    .tr3{
+        height: 27vh;
+    }
+
+    .txt1{
+        margin-top: 5vh;
+    }
+
+    .txt2{
+        margin-top: 6vh;
+    }
+
+    .txt3{
+        margin-top: 5vh;
+    }
+
+    /* past sponsors section */
+
+    #ps{
+        height: 80vh;
+    }
+
+    .logos{
+        height: 32vh;
+    }
+
+    #gfg,#hp,#fueler,#devfolio,#xyz,#polygon,#bee,#replit,#solana,#filecoin,#echo3D{
+        height: 3vh;
+    }
+
+    #iste,#ashrae{
+        height: 7vh;
+    }
+
+    .r1{
+        width: 70%;
+    }
+
+    .r2{
+        width: 32%;
+    }
+
+    .r3{
+        width: 95%;
+    }
+
+    .r4{
+        width: 90%;
+    }
+
+    .r5{
+        width: 50%;
+    }
+
+    #tb{
+        height: 25vh;
+        margin-top: 3vh;
+    }
+
+    #down{
+        margin-top: 21.7vh;
+    }
+
+    /* past event section */
+
+    #pe{
+        display: none;
+    }
+
+    #pem{
+        display: block;
+        height: 44vh;
+    }
+
+    .pe1 {
+        width: 65vh;
+        height: 39vh;
+        
+    }
+
+    .h h1{
+        margin-top: 0;
+    }
+
+    .carousel{
+        top: 0vh;
+        height: 30vh;
+    }
+    
+    .carousel-inner{
+        height: 20vh;
+    }
+    
+    .ci1{
+        height: 11vh;
+        width: 11vh;
+    }
+    
+    .ci{
+        height: 11vh;
+        width: 13vh;
+    }
+
+    .carousel-indicators{
+        top: 15vh;
+    }
+
+    .carousel-indicators [data-bs-target]{
+        position: relative;
+        top: 0.9vh;
+        border-radius: 100%;
+        width: 0.2rem;
+        height: 0.1rem;
+        margin-right: 0px;
+        margin-left: 6px;
+    }
+    
+    .carousel-caption h5{
+        font-family: var(--primary-font);
+        font-size: 2rem;
+        top: 1rem;
+        position: relative;
+    }
+    
+    .crousel-item {
+        transition: 1s;
+    }
+    
+    .crousel-item :hover{
+        transform: scale(1.2);
+        z-index: 2;
+    }
+
+    .carousel-control-prev {
+        left: 1.5vh;
+    }
+
+    .carousel-control-next{
+        right: 1.5vh;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        height: 17vh;
+        top: 2vh;
+    }
+
+    #c2{
+        height: 23rem;
+    }
+    
+    .ci2{
+        width: 88%;
+        height: 21rem;
+    }
+    
+    #cc{
+        width: 100%;
+        top: 0.5rem;
+        background-color: #86571096;
+    }
+    
+    #cai2{
+        top: 18rem;
+    }
+
+    
+
+    /* footer section */
+
+    #foot{
+        height: 24vh;
+    }
+
+    .f{
+        height: 22vh;
+    }
+
+    .l,.bs,.add,.ce{
+        margin-top: 7vh;
+    }
+
+    .l img{
+        height: 7vh;
+    }
+
+    #foot h3{
+        font-size: .9rem;
+        font-weight: normal;
+    }
+
+   .add p{
+        font-size: .65rem ;
+        font-weight: normal;
+   }
+
+   .ce p{
+        font-size: .65rem ;
+        font-weight: normal;
+    }
+
+    .bs p{
+        font-size: .65rem ;
+        font-weight: normal;
+    }
+}
+
+@media screen and (max-width: 821px){
+
+    /* common */
+
+    h1{
+        font-size: 1.6rem;
+    }
+
+    #loading{
+        background-image: url(./images/map820.png);
+        background-size: cover;
+        overflow-y: hidden;
+    }
+
+    /* home section */
+    #home{
+        height: 45vh;
+    }
+
+    #logo{
+        top: 3rem;
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .background-images h2{
+        font-size: 1.1rem;
+        top: 12.5rem;
+        line-height: 1.7rem;
+    }
+
+    #lighttree,#light,#darktree,#dark,#darker,#darkertree{
+        top: 3.5rem
+    }
+
+    .btn{
+        top: 0rem;
+        font-size: 1.3rem;
+        margin-top: 275px;
+        width: 10rem;
+        font-size: 1.2rem;
+    }
+
+    .sp{
+        animation: none;
+    }
+    
+    .pp{
+        animation: none;
+    }
+
+    .potter{
+        position: absolute;
+        margin-left: 35rem;
+        margin-top: 6rem ;
+        height: 4rem;
+        animation:  none ;
+    }
+
+    .snitch{
+        position: absolute;
+        height: 2rem;
+        width: 3.5rem;
+        margin-left: 8rem;
+        margin-top: 6rem ;
+        animation:  none;
+    }
+    
+
+    /* about section */
+
+    #about{
+        height: 29vh;
+    }
+
+    .as p{
+        font-size: 1.2rem;
+        padding: 1rem 0 0 0;
+    }
+
+    /* hackathon track section */
+
+    #ht{
+        height: 55vh;
+    }
+
+    .ht-sub{
+        padding-top: 10vh;
+    }
+
+    .t11 img{
+        height: 10vh;
+    }
+
+    .t11 h2{
+        font-size: 1.3rem;
+    }
+
+    /* prizes section */
+
+    #pr{
+        height: 43vh;
+    }
+
+    .tr1{
+        height: 30vh;
+    }
+
+    .tr2{
+        height: 35vh;
+    }
+
+    .tr3{
+        height: 29vh;
+    }
+
+    .txt1{
+        margin-top: 5vh;
+    }
+
+    .txt2{
+        margin-top: 6vh;
+    }
+
+    .txt3{
+        margin-top: 5vh;
+    }
+
+    /* past sponsors section */
+
+    #ps{
+        height: 90vh;
+    }
+
+    .logos{
+        height: 35vh;
+    }
+
+    #gfg,#hp,#fueler,#devfolio,#xyz,#polygon,#bee,#replit,#solana,#filecoin,#echo3D{
+        height: 3.5vh;
+    }
+
+    #iste,#ashrae{
+        height: 8vh;
+    }
+
+    .r1{
+        width: 70%;
+    }
+
+    .r2{
+        width: 32%;
+    }
+
+    .r3{
+        width: 100%;
+    }
+
+    .r4{
+        width: 90%;
+    }
+
+    .r5{
+        width: 50%;
+    }
+
+    #tb{
+        height: 28vh;
+        margin-top: 3vh;
+    }
+
+    #down{
+        margin-top: 24.3vh;
+    }
+
+    /* past event section */
+
+    #pe{
+        display: none;
+    }
+
+    #pem{
+        display: block;
+        height: 49vh;
+    }
+
+    .pe1 {
+        width: 65vh;
+        height: 39vh;
+        
+    }
+
+    .h h1{
+        margin-top: 0;
+    }
+
+    .carousel{
+        top: 0vh;
+        height: 30vh;
+    }
+    
+    .carousel-inner{
+        height: 20vh;
+    }
+    
+    .ci1{
+        height: 11vh;
+        width: 11vh;
+    }
+    
+    .ci{
+        height: 11vh;
+        width: 13vh;
+    }
+
+    .carousel-indicators{
+        top: 15vh;
+    }
+
+    .carousel-indicators [data-bs-target]{
+        position: relative;
+        top: 0.9vh;
+        border-radius: 100%;
+        width: 0.2rem;
+        height: 0.1rem;
+        margin-right: 0px;
+        margin-left: 6px;
+    }
+    
+    .carousel-caption h5{
+        font-family: var(--primary-font);
+        font-size: 2rem;
+        top: 1rem;
+        position: relative;
+    }
+    
+    .crousel-item {
+        transition: 1s;
+    }
+    
+    .crousel-item :hover{
+        transform: scale(1.2);
+        z-index: 2;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        height: 17vh;
+    }
+
+    #c2{
+        height: 23rem;
+    }
+    
+    .ci2{
+        width: 100%;
+        height: 21rem;
+    }
+    
+    #cc{
+        width: 100%;
+        top: 0.5rem;
+        background-color: #86571096;
+    }
+    
+    #cai2{
+        top: 19rem;
+    }
+
+    
+
+    /* footer section */
+
+    #foot{
+        height: 24vh;
+    }
+
+    .f{
+        height: 22vh;
+    }
+
+    .l,.bs,.add,.ce{
+        margin-top: 7vh;
+    }
+
+    .l img{
+        height: 7vh;
+    }
+
+    #foot h3{
+        font-size: .9rem;
+        font-weight: normal;
+    }
+
+   .add p{
+        font-size: .65rem ;
+        font-weight: normal;
+   }
+
+   .ce p{
+        font-size: .65rem ;
+        font-weight: normal;
+    }
+
+    .bs p{
+        font-size: .65rem ;
+        font-weight: normal;
+    }
+}
+
+@media screen and (max-width:768px){
 
     .mobile{
         display: none;
@@ -965,9 +1729,15 @@
         font-size: 1.6rem;
     }
 
+    #loading{
+        background-image: url(./images/map768.png);
+        background-size: cover;
+        overflow-y: hidden;
+    }
+
     /* home section */
     #home{
-        height: 63vh;
+        height: 45vh;
     }
 
     #logo{
@@ -978,37 +1748,71 @@
 
     .background-images h2{
         font-size: 1.1rem;
-        top: 11.5rem;
+        top: 12.5rem;
+        line-height: 1.7rem;
+    }
+
+    #lighttree,#light,#darktree,#dark,#darker,#darkertree{
+        top: 3.5rem
     }
 
     .btn{
-        top: 20rem;
+        top: 0rem;
         font-size: 1.3rem;
+        margin-top: 275px;
+        width: 10rem;
+        font-size: 1.2rem;
     }
+
+    .sp{
+        animation: none;
+    }
+    
+    .pp{
+        animation: none;
+    }
+
+    .potter{
+        position: absolute;
+        margin-left: 35rem;
+        margin-top: 6rem ;
+        height: 4rem;
+        animation:  none ;
+    }
+
+    .snitch{
+        position: absolute;
+        height: 2rem;
+        width: 3.5rem;
+        margin-left: 8rem;
+        margin-top: 6rem ;
+        animation:  none;
+    }
+    
 
     /* about section */
 
     #about{
-        height: 38vh;
+        height: 29vh;
     }
 
     .as p{
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         padding: 1rem 0 0 0;
     }
 
     /* hackathon track section */
 
     #ht{
-        height: 76vh;
+        height: 55vh;
     }
 
     .ht-sub{
-        padding-top: 13vh;
+        padding-top: 10vh;
     }
 
     .t11 img{
-        height: 14vh;
+        height: 10vh;
     }
 
     .t11 h2{
@@ -1018,112 +1822,174 @@
     /* prizes section */
 
     #pr{
-        height: 64vh;
+        height: 43vh;
     }
 
     .tr1{
-        height: 40vh;
+        height: 30vh;
     }
 
     .tr2{
-        height: 56vh;
+        height: 35vh;
     }
 
     .tr3{
-        height: 35vh;
+        height: 29vh;
+    }
+
+    .txt1{
+        margin-top: 5vh;
+    }
+
+    .txt2{
+        margin-top: 6vh;
+    }
+
+    .txt3{
+        margin-top: 5vh;
     }
 
     /* past sponsors section */
 
     #ps{
-        height: 123vh;
+        height: 90vh;
     }
 
     .logos{
-        height: 41vh;
+        height: 35vh;
     }
 
     #gfg,#hp,#fueler,#devfolio,#xyz,#polygon,#bee,#replit,#solana,#filecoin,#echo3D{
-        height: 4vh;
+        height: 3.5vh;
     }
 
     #iste,#ashrae{
-        height: 9vh;
+        height: 8vh;
+    }
+
+    .r1{
+        width: 70%;
+    }
+
+    .r2{
+        width: 32%;
+    }
+
+    .r3{
+        width: 100%;
+    }
+
+    .r4{
+        width: 90%;
+    }
+
+    .r5{
+        width: 50%;
     }
 
     #tb{
-        height: 44vh;
+        height: 28vh;
+        margin-top: 3vh;
     }
 
     #down{
-        margin-top: 32.5vh;
+        margin-top: 24.3vh;
     }
 
     /* past event section */
 
     #pe{
-        height: 149.7vh;
+        display: none;
+    }
+
+    #pem{
+        display: block;
+        height: 49vh;
+    }
+
+    .pe1 {
+        width: 65vh;
+        height: 39vh;
+        
     }
 
     .h h1{
         margin-top: 0;
     }
 
-    .pe1{
-        width: 84vh;
-        height: 148vh;
+    .carousel{
+        top: 0vh;
+        height: 30vh;
+    }
+    
+    .carousel-inner{
+        height: 20vh;
+    }
+    
+    .ci1{
+        height: 11vh;
+        width: 11vh;
+    }
+    
+    .ci{
+        height: 11vh;
+        width: 13vh;
     }
 
-    .col{
-        margin-top: 5vh;
-        height: 80vh;
+    .carousel-indicators{
+        top: 15vh;
     }
 
-    .row3,.row2{
-        height: 96vh;
+    .carousel-indicators [data-bs-target]{
+        position: relative;
+        top: 0.9vh;
+        border-radius: 100%;
+        width: 0.2rem;
+        height: 0.1rem;
+        margin-right: 0px;
+        margin-left: 6px;
+    }
+    
+    .carousel-caption h5{
+        font-family: var(--primary-font);
+        font-size: 2rem;
+        top: 1rem;
+        position: relative;
+    }
+    
+    .crousel-item {
+        transition: 1s;
+    }
+    
+    .crousel-item :hover{
+        transform: scale(1.2);
+        z-index: 2;
     }
 
-    #ele1,#ele2{
-        height: 32vh;
+    .carousel-control-next, .carousel-control-prev {
+        height: 17vh;
     }
 
-    #ele3 p{
-        font-size: 7.5vh;
-        margin: 0;
+    #c2{
+        height: 23rem;
+    }
+    
+    .ci2{
+        width: 100%;
+        height: 21rem;
+    }
+    
+    #cc{
+        width: 100%;
+        top: 0.5rem;
+        background-color: #86571096;
+    }
+    
+    #cai2{
+        top: 19rem;
     }
 
-    #ele4 {
-        height: 25vh;
-    }
-
-    #ele4 img{
-        height:24vh;
-    }
-
-    #ele5 p{
-        font-size: 5.65vh ;
-        margin: 0;
-    }
-
-    #ele6 img{
-        height: 26vh;
-    }
-
-    #ele7 img{
-        height: 26.6vh ;
-    }
-
-    #ele8 p{
-        font-size: 6.5vh ;
-    }
-
-    #ele9 img{
-        height: 28.7vh ;
-    }
-
-    #ele10 p{
-        font-size: 6.8vh ;
-    }
+    
 
     /* footer section */
 
@@ -1131,26 +1997,424 @@
         height: 24vh;
     }
 
+    .f{
+        height: 22vh;
+    }
+
     .l,.bs,.add,.ce{
-        margin-top: 0vh;
+        margin-top: 7vh;
+    }
+
+    .l img{
+        height: 7vh;
     }
 
     #foot h3{
         font-size: .9rem;
+        font-weight: normal;
     }
 
    .add p{
         font-size: .65rem ;
+        font-weight: normal;
    }
 
    .ce p{
         font-size: .65rem ;
+        font-weight: normal;
     }
 
     .bs p{
         font-size: .65rem ;
+        font-weight: normal;
     }
 
+}
+
+@media screen and (max-width: 540px){
+     /* COMMON */
+
+     #htm,#psm,#pem{                
+        display: block;
+    }
+
+    #pe, #ht,#ps{
+        display: none;
+    }
+
+    .nav1{
+        display: none;
+    }
+
+    .nav2{
+        display: block;
+    }
+
+    h1{
+        font-size: 0.9rem;
+    }
+
+    .html, body{
+        background-image: url(./images/Android\ Large\ -\ 3.png) ;
+        background-size: cover;
+    }
+
+    /* LOADER */
+
+    #loading{
+        background-image: url(./images/map540.png);
+        background-size: cover;
+        overflow-y: hidden;
+    }
+
+    /* HOME */
+
+    #home{
+        height: 56vh;
+    }
+
+    #logo{
+        top: 3rem;
+        height: 9rem;
+        width: 9rem;
+    }
+
+    #lighttree,#light,#darktree,#dark,#darker,#darkertree{
+        top: 7.5rem
+    }
+    
+    .background-images h2{
+        font-size: 0.9rem;
+        top: 11.5rem;
+        line-height: 3vh;
+    }
+
+    .btp{
+        margin:0;
+        gap: 15px;
+    }
+
+    .btn{
+        top: 15rem;
+        font-size: 0.65rem;
+        height: 1.5rem;
+        width: 5rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .pp,.sp, .snitch, .potter{
+        animation: none;
+    }
+
+    .snitch{
+        height: 1.5rem;
+        width: 2.5rem;
+        margin-left: 5rem;
+        margin-top: 7rem ;
+    }
+    
+    .potter{
+        margin-left: 25rem;
+        margin-top: 7rem ;
+        height: 2.5rem;
+    }
+
+    /* OVERVIEW */
+
+    #about{
+        height: 32.8vh;
+    }
+
+    .as p{
+        font-size: 0.9rem;
+        padding: 0.5rem 1.5rem 0rem 1.5rem;
+    }
+
+    /* HACKATHON TRACKS */
+
+    #htm{
+        background-image:url(./images/ht\ bg.png);
+        background-size: cover;
+        height: 44vh;
+    }
+
+    .ht-sub{
+        padding-top: 8vh;
+    }
+
+    .tracks{
+        height: 27vh;
+    }
+
+    .carousel{
+        top: 3vh;
+        height: 23vh;
+    }
+    
+    .carousel-inner{
+        height: 20vh;
+    }
+    
+    .ci1{
+        height: 11vh;
+        width: 11vh;
+    }
+    
+    .ci{
+        height: 11vh;
+        width: 13vh;
+    }
+
+    .carousel-indicators{
+        top: 15vh;
+    }
+
+    .carousel-indicators [data-bs-target]{
+        position: relative;
+        top: 0.9vh;
+        border-radius: 100%;
+        width: 0.2rem;
+        height: 0.1rem;
+        margin-right: 0px;
+        margin-left: 6px;
+    }
+    
+    .carousel-caption h5{
+        font-family: var(--primary-font);
+        font-size: 1rem;
+        top: 4.1rem;
+        position: relative;
+    }
+    
+    .crousel-item {
+        transition: 1s;
+    }
+    
+    .crousel-item :hover{
+        transform: scale(1.2);
+        z-index: 2;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        height: 17vh;
+    }
+
+    /* PRIZES */
+
+    #pr{
+        height: 42vh;
+    }
+
+    .prizes h1{
+        font-size: .9rem;
+        margin-top: 2vh;
+    }
+    .trophie h2{
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    
+    .trophie h3{
+        font-weight: bold;
+        font-size: 0.7rem;
+    }
+    
+    .tr2{
+        height: 35vh;
+    }
+    
+    .tr1{
+        height: 29vh;
+    }
+    
+    .tr3{
+        height: 26vh;
+    }
+
+    .txt1,.txt3{
+        margin-top: 5vh ;
+    }
+
+    .txt1 h3,.txt3 h3, .txt2 h3{
+        font-size: 0.9rem;
+    }
+
+    .txt1 h2,.txt3 h2, .txt2 h2{
+        font-size: 1.2rem;
+    }
+
+    .txt2{
+        margin-top: 7vh;
+    }
+
+    /* PAST SPONSORS */
+
+    #psm{
+        height: 90vh;
+    }
+
+    .psp{
+        padding: 0;
+    }
+
+    .logos{
+        height: 38vh;
+    }
+
+    .r1{
+        width: 60%;
+    }
+    
+    #gfg{
+        height: 3vh;
+    }
+    
+    #hp{
+        height: 3vh;
+    }
+    
+    .r2{
+        width: 30%;
+    }
+    
+    #ashrae,#iste{
+        height: 7vh;
+    }
+    
+    
+    .r3, .r4, .r6, .r5{
+        width: 50%;
+    }
+
+    .r7{
+        width: 70%;
+    }
+    
+    #fueler,#bee,#polygon,#devfolio{
+        height: 3vh;
+    }
+    
+    #echo3D, #xyz{
+        height: 3vh;
+    }
+
+    #tb{
+        top: 1rem;
+        height: 25vh;
+    }
+
+    #down{
+        margin-top: 23vh;
+    }
+
+    /* PAST EVENT */
+
+    #pem{
+        height: 32vh;
+    }
+
+    .pe1{
+        width: 152vh;
+        height: 0vh;
+    }
+
+    .h h1{
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+    }
+
+    #c2{
+        height: 11rem;
+    }
+    
+    .ci2{
+        width: 100%;
+        height: 10rem;
+    }
+    
+    #cc{
+        width: 100%;
+        top: 1.5rem;
+        background-color: #86571096;
+    }
+    
+    #cai2{
+        top: 8rem;
+    }
+
+    #carouselExampleCaptions2{
+        left: 4.5rem;
+        width: 352px;
+    }
+
+    /* FOOTER */
+
+    #foot{
+        height: 23vh;
+    }
+    
+    .f{
+        position: relative;
+        height: 22vh;
+        width: 100%;
+    }
+    
+    .l,.bs,.add,.ce{
+        height: 7vh;
+        margin-top: 3vh;
+    }
+
+    #foot h3{
+        font-size: 0.6rem;
+    }
+    
+    .icons a{
+        position: relative;
+    }
+    
+    .icons svg{
+        top: 0.2vh;
+        position: absolute;
+        width: 1.5vh;
+        height: 1.5vh;
+    }
+    
+    .l img{
+        position: relative;
+        top: 2vh;
+        height: 4vh;
+    }
+    
+    .add{
+        top: 1vh;
+    }
+
+    .ce1{
+        height: 6vh;
+    }
+
+    .ce p{
+        margin-bottom: 0;
+    }
+    
+    .ce a{
+        position: relative;
+        height: 1.2vh;
+    }
+    
+    .bs1{
+        height: 5vh;
+    }
+    
+    .add h3, .bs h3, .ce h3{
+        margin-bottom: 0.2rem;
+        font-size: 0.5rem;
+    } 
+    
+    .add p, .bs p, .ce p{
+        font-size: 0.4rem;
+    }
 }
 
 @media screen and (max-width:450px){
@@ -1163,6 +2427,14 @@
 
     #pe, #ht,#ps{
         display: none;
+    }
+
+    .nav1{
+        display: none;
+    }
+
+    .nav2{
+        display: block;
     }
 
     h1{
@@ -1534,6 +2806,14 @@
         display: none;
     }
 
+    .nav1{
+        display: none;
+    }
+
+    .nav2{
+        display: block;
+    }
+
     h1{
         font-size: 0.9rem;
     }
@@ -1541,13 +2821,13 @@
     .html, body{
         background-image: url(./images/Android\ Large\ -\ 3.png) ;
         background-size: cover;
-        height: 100rem;
+        height: 142rem;
     }
 
     /* LOADER */
 
     #loading{
-        background-image: url(./images/map\ mobile.png);
+        background-image: url(./images/map440.png);
         background-size: cover;
         overflow-y: hidden;
     }
@@ -1609,6 +2889,10 @@
 
     #about{
         height: 20.8vh;
+    }
+
+    .as h1{
+        top: 0;
     }
 
     .as p{
@@ -1892,10 +3176,28 @@
 }
 
 @media screen and (max-width:415px) {
+
+
     html,body{
         background-image: url(./images/Android\ Large\ -\ 3.png);
         background-size: cover;
         height: 136rem;
+    }
+
+    .nav1{
+        display: none;
+    }
+
+    .nav2{
+        display: block;
+    }
+
+    /* LOADER */
+
+    #loading{
+        background-image: url(./images/map415.png);
+        background-size: cover;
+        overflow-y: hidden;
     }
 }
 
@@ -1912,6 +3214,10 @@
 
     #about {
         height: 24.8vh;
+    }
+
+    .as h1{
+        top: 0;
     }
 
     #htm{
@@ -1944,6 +3250,14 @@
         display: none;
     }
 
+    .nav1{
+        display: none;
+    }
+
+    .nav2{
+        display: block;
+    }
+
     h1{
         font-size: 0.9rem;
     }
@@ -1957,7 +3271,7 @@
     /* LOADER */
 
     #loading{
-        background-image: url(./images/map\ mobile.png);
+        background-image: url(./images/map375.png);
         background-size: cover;
         overflow-y: hidden;
     }
@@ -2127,7 +3441,7 @@
     /* PAST SPONSORS */
 
     #psm{
-        height: 82vh;
+        height: 87vh;
     }
 
     .psp{
@@ -2177,7 +3491,7 @@
     }
 
     #down{
-        margin-top: 18.5vh;
+        margin-top: 21.5vh;
     }
 
     /* PAST EVENT */
@@ -2635,4 +3949,6 @@
     }
     
 }
+
+
 

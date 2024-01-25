@@ -86,8 +86,9 @@ html, body{
     /* position: fixed; */
     height: 100vh;
     width: 100vw;
-    /* background-image: url(./images/Wireframe\ -\ 7.png);
-    background-size: cover; */
+    background-image: url(./images/Wireframe\ -\ 7.png);
+    background-size: cover;
+    position: fixed;
     overflow-y: hidden;
     z-index: 1;
 }
@@ -283,6 +284,10 @@ html, body{
 
 /* NAVBAR SECTION */
 
+.nav2{
+    display: none;
+}
+
 .container img{
     width: 5rem;
 }
@@ -339,7 +344,7 @@ html, body{
 
 #home{
     width: 100%;
-    height: 110vh;
+    height: 105vh;
 }
 
 .background-images{
@@ -454,10 +459,12 @@ html, body{
 /* ABOUT SECTION */
 #about{
     width: 100%;
-    height: 61vh;
+    height: 63vh;
 }
 
 .as h1{
+    position: relative;
+    top: 2.5rem;
     font-family: var(--primary-font);
     color: var(--primary-color);
     font-weight: bold;
@@ -470,7 +477,7 @@ html, body{
     color: var(--primary-color);
     text-align: justify;
     font-size:xx-large;
-    padding: 2rem 0rem 0;
+    padding: 3rem 0rem 0;
 }
 
 /* HACKATHON TRACK SECTION */
