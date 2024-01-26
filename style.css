@@ -16,9 +16,8 @@
 html, body{
     margin: 0;
     padding: 0;
+    background-color: #DDC6A2;
     width: 100%;
-    background-image: url(./images/WEBSITE.png) ;
-    background-size: cover;
     height: 60rem;
 }
 
@@ -82,8 +81,7 @@ html, body{
 
 /* LOADER  */
 
-#loading{
-    /* position: fixed; */
+/* #loading{
     height: 100vh;
     width: 100vw;
     background-image: url(./images/Wireframe\ -\ 7.png);
@@ -91,38 +89,23 @@ html, body{
     position: fixed;
     overflow-y: hidden;
     z-index: 1;
-}
+    transition: background-image 60s ease-in-out;
+} */
 
-.bg{
-    position: absolute;
-    top: 0;
-}
-
-.img1{
-    top: 0;
-    position: fixed;
+#loading {
     height: 100vh;
-}
-
-.fadeOut {
-    animation: fade 4s; 
- }
-
- @keyframes fade{
-    0%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-    }
- }
-
-.img2{
-    right: 0;
-    top: 0;
+    width: 100vw;
+    background-image: url('./images/Wireframe - 7.png');
+    background-size: cover;
     position: fixed;
-    height: 100vh;
-}
+    overflow-y: hidden;
+    z-index: 1;
+    transition: opacity 3s ease-in-out;
+  }
+  
+  #loading.fade-out {
+    opacity: 0;
+  }
 
 
 .ajax-loader, .ajax-loader2, .ajax-loader3, .ajax-loader4 {
@@ -280,7 +263,11 @@ html, body{
   }
 
 
-#all{display: none;}
+#all{
+    display: none;
+    background-image: url(./images/WEBSITE.png) ;
+    background-size: cover;
+}
 
 /* NAVBAR SECTION */
 
@@ -871,18 +858,19 @@ html, body{
 #foot{
     position: relative;
     width: 100%;
-    height: 65vh;
+    /* height: 65vh; */
     bottom: 0;
     background-image: url(./images/fbg.png);
     background-size: cover;
 }
 
-.f{
-    height: 45vh;
-}
+/* .f{
+    height: 40vh;
+} */
 
 .l,.bs,.add,.ce{
-    margin-top: 35vh;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
 }
 
 .l img{

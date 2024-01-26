@@ -3,26 +3,40 @@
 //     smooth: true
 // });
 
+// var myVar;
+// var click;
+
+// function loaderClick(){
+//   click = document.getElementById("loading");
+//   click.addEventListener("click",myFunction);
+// }
+
+// function myFunction(){
+//   myVar = setTimeout(onclick , 5000);
+// }
+
+// function onclick() {
+//   document.getElementById('loading').style.display = 'none';
+//   document.getElementById('all').style.display = 'block';
+// }
+
 var myVar;
 var click;
 
-function loaderClick(){
+function loaderClick() {
   click = document.getElementById("loading");
-  click.addEventListener("click",myFunction);
+  click.addEventListener("click", myFunction);
 }
 
-function myFunction(){
-  myVar = setTimeout(onclick , 1000);
-}
+function myFunction() {
+ 
+  click.classList.add('fade-out');
 
-function onclick() {
-  document.getElementById('loading').style.display = 'none';
-  document.getElementById('all').style.display = 'block';
-}
 
-function imgTrans(){
-  document.querySelectorAll('.img1').classList.add('fadeOut');
-  document.querySelector('.img2').classList.add('fadeOut');
+  setTimeout(function() {
+    click.style.display = 'none';
+    document.getElementById('all').style.display = 'block';
+  }, 1700);
 }
 
 
