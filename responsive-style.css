@@ -2054,7 +2054,7 @@
         font-size: 0.9rem;
     }
 
-    .html, body{
+    #all{
         background-image: url(./images/Android\ Large\ -\ 3.png) ;
         background-size: cover;
     }
@@ -2441,10 +2441,13 @@
         font-size: 0.9rem;
     }
 
-    .html, body{
+    html, body{
+        height: 130rem;
+    }
+
+    #all{
         background-image: url(./images/Android\ Large\ -\ 3.png) ;
         background-size: cover;
-        height: 130rem;
     }
 
     /* LOADER */
@@ -2818,10 +2821,13 @@
         font-size: 0.9rem;
     }
 
-    .html, body{
+    html, body{
+        height: 142rem;
+    }
+
+    #all{
         background-image: url(./images/Android\ Large\ -\ 3.png) ;
         background-size: cover;
-        height: 142rem;
     }
 
     /* LOADER */
@@ -3178,10 +3184,14 @@
 @media screen and (max-width:415px) {
 
 
-    html,body{
+    html, body{
+        height: 136rem;
+    }
+
+    #all{
         background-image: url(./images/Android\ Large\ -\ 4.png);
         background-size: cover;
-        height: 136rem;
+        
     }
 
     .nav1{
@@ -3203,9 +3213,12 @@
 
 @media screen and (max-width:391px) {
     html,body{
+        height: 129rem;
+    }
+
+    #all{
         background-image: url(./images/Android\ Large\ -\ 4.png);
         background-size: cover;
-        height: 129rem;
     }
 
     #home {
@@ -3263,9 +3276,13 @@
     }
 
     html, body{
+        
+        height: 123.7rem;
+    }
+
+    #all{
         background-image: url(./images/Android\ Large\ -\ 4.png) ;
         background-size: cover;
-        height: 123.7rem;
     }
 
     /* LOADER */
@@ -3624,7 +3641,7 @@
         font-size: 0.9rem;
     }
 
-    .html, body{
+    #all{
         background-image: url(./images/Android\ Large\ -\ 4.png) ;
         background-size: cover;
         /* height: 115.5rem; */
