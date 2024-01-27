@@ -231,7 +231,7 @@
     }
 
     #loading{
-        background-image: url(./images/map1248.png);
+        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200563796012453888/map1248.png?ex=65c6a32a&is=65b42e2a&hm=9928cd464fce3fb8c4b62539ded9a6a0404946afe6d666989ebde675c374f29f&=&format=webp&quality=lossless&width=926&height=565);
         background-size: cover;
         overflow-y: hidden;
     }
@@ -379,7 +379,7 @@
     }
 
     #loading{
-        background-image: url(./images/map1152.png);
+        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200563979446124686/map1152.png?ex=65c6a356&is=65b42e56&hm=51704c139112662624fa03361f7783af693db6198ff0fde20ab19bc94f0f40fc&=&format=webp&quality=lossless&width=853&height=565);
         background-size: cover;
         overflow-y: hidden;
     }
@@ -513,7 +513,7 @@
    }
 
    #loading{
-    background-image: url(./images/map1056.png);
+    background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200564350713331752/map1056.png?ex=65c6a3ae&is=65b42eae&hm=5d740d96ac17c3063fd4015d132a94b0f8debb190a16ed49946fa83e0262ea57&=&format=webp&quality=lossless&width=782&height=565);
     background-size: cover;
     overflow-y: hidden;
 }
@@ -713,7 +713,7 @@
     }
 
     #loading{
-        background-image: url(./images/map1024.png);
+        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200564499833421844/map1024.png?ex=65c6a3d2&is=65b42ed2&hm=acf8dd18ea3416b3e54bbb6ad97491bedf5ebfef2b9563ddd2f82019745fe14e&=&format=webp&quality=lossless&width=951&height=565);
         background-size: cover;
         overflow-y: hidden;
     }
@@ -1084,7 +1084,7 @@
 }
 
 @media screen and (max-width: 915px){
-    .mobile{
+    .ajax{
         display: none;
     }
 
@@ -1095,7 +1095,7 @@
     }
 
     #loading{
-        background-image: url(./images/map915.png);
+        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200564653500137492/map915.png?ex=65c6a3f6&is=65b42ef6&hm=bc9c428e42b5dc756453a07bb594409f330845a94c1e0b1675f87d963fa3ccf2&=&format=webp&quality=lossless&width=377&height=565);
         background-size: cover;
         overflow-y: hidden;
     }
@@ -1417,7 +1417,7 @@
     }
 
     #loading{
-        background-image: url(./images/map820.png);
+        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200564818986410065/map820.png?ex=65c6a41e&is=65b42f1e&hm=c7b82079f71416230a845f7a48e2b6871e75d447795d6646557681a51ff80757&=&format=webp&quality=lossless&width=392&height=565);
         background-size: cover;
         overflow-y: hidden;
     }
@@ -1730,7 +1730,7 @@
     }
 
     #loading{
-        background-image: url(./images/map768.png);
+        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200564986783731843/map768.png?ex=65c6a446&is=65b42f46&hm=17b2d5481b1c2203346c1a489e2d2cbe0ef8b0a8c720f10561659856581f50ac&=&format=webp&quality=lossless&width=425&height=565);
         background-size: cover;
         overflow-y: hidden;
     }
@@ -2055,14 +2055,14 @@
     }
 
     #all{
-        background-image: url(./images/Android\ Large\ -\ 3.png) ;
+        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200565202207379536/Android_Large_-_3.png?ex=65c6a479&is=65b42f79&hm=76ef7212da97f86962b5cc4f4ec975c3802e56ce5f40038919653d7939d9ca4c&=&format=webp&quality=lossless&width=107&height=563) ;
         background-size: cover;
     }
 
     /* LOADER */
 
     #loading{
-        background-image: url(./images/map540.png);
+        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200565202668769360/map540.png?ex=65c6a479&is=65b42f79&hm=ddee3765b7ab9e8ac139fe72ab0b1eedc1738a0c3e6009920b2ea7ee872ab8d9&=&format=webp&quality=lossless&width=423&height=565);
         background-size: cover;
         overflow-y: hidden;
     }
@@ -2446,14 +2446,14 @@
     }
 
     #all{
-        background-image: url(./images/Android\ Large\ -\ 3.png) ;
+        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200565202207379536/Android_Large_-_3.png?ex=65c6a479&is=65b42f79&hm=76ef7212da97f86962b5cc4f4ec975c3802e56ce5f40038919653d7939d9ca4c&=&format=webp&quality=lossless&width=107&height=563) ;
         background-size: cover;
     }
 
     /* LOADER */
 
     #loading{
-        background-image: url(./images/map\ mobile.png);
+        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200565621088342026/map_mobile.png?ex=65c6a4dd&is=65b42fdd&hm=829ac62265b709737f4e33fbfb12c6e2d6c0677126c1175467328afec3c5ddc5&=&format=webp&quality=lossless&width=285&height=563);
         background-size: cover;
         overflow-y: hidden;
     }
@@ -2826,14 +2826,14 @@
     }
 
     #all{
-        background-image: url(./images/Android\ Large\ -\ 3.png) ;
+        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200565202207379536/Android_Large_-_3.png?ex=65c6a479&is=65b42f79&hm=76ef7212da97f86962b5cc4f4ec975c3802e56ce5f40038919653d7939d9ca4c&=&format=webp&quality=lossless&width=107&height=563) ;
         background-size: cover;
     }
 
     /* LOADER */
 
     #loading{
-        background-image: url(./images/map440.png);
+        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200565782137016331/map440.png?ex=65c6a503&is=65b43003&hm=90484f1d8f7e46ae8a0db5c6992c14a1e7526e34c082726dcffe2a96c933d627&=&format=webp&quality=lossless&width=261&height=565);
         background-size: cover;
         overflow-y: hidden;
     }
@@ -3189,7 +3189,7 @@
     }
 
     #all{
-        background-image: url(./images/Android\ Large\ -\ 4.png);
+        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200566424435958012/Android_Large_-_4.png?ex=65c6a59d&is=65b4309d&hm=d8b912a9eed1d333d1326856ff3509c5ca0be4efee22604eeaeb4a2632a42c30&=&format=webp&quality=lossless&width=107&height=563);
         background-size: cover;
         
     }
@@ -3205,7 +3205,7 @@
     /* LOADER */
 
     #loading{
-        background-image: url(./images/map415.png);
+        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200565988115107861/map415.png?ex=65c6a535&is=65b43035&hm=ea3e2d945d1ca193bc13e3ef1429784bb5464d1696874008fca55bd162e97f63&=&format=webp&quality=lossless&width=261&height=565);
         background-size: cover;
         overflow-y: hidden;
     }
@@ -3217,7 +3217,7 @@
     }
 
     #all{
-        background-image: url(./images/Android\ Large\ -\ 4.png);
+        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200566424435958012/Android_Large_-_4.png?ex=65c6a59d&is=65b4309d&hm=d8b912a9eed1d333d1326856ff3509c5ca0be4efee22604eeaeb4a2632a42c30&=&format=webp&quality=lossless&width=107&height=563);
         background-size: cover;
     }
 
@@ -3281,14 +3281,14 @@
     }
 
     #all{
-        background-image: url(./images/Android\ Large\ -\ 4.png) ;
+        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200566424435958012/Android_Large_-_4.png?ex=65c6a59d&is=65b4309d&hm=d8b912a9eed1d333d1326856ff3509c5ca0be4efee22604eeaeb4a2632a42c30&=&format=webp&quality=lossless&width=107&height=563) ;
         background-size: cover;
     }
 
     /* LOADER */
 
     #loading{
-        background-image: url(./images/map375.png);
+        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200566156076007475/map375.png?ex=65c6a55d&is=65b4305d&hm=0bc3be5b45a7ec99c4f590b33d2825a989565fcbc1100b54f9b875ec956274fa&=&format=webp&quality=lossless&width=297&height=565);
         background-size: cover;
         overflow-y: hidden;
     }
@@ -3642,7 +3642,7 @@
     }
 
     #all{
-        background-image: url(./images/Android\ Large\ -\ 4.png) ;
+        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200566424435958012/Android_Large_-_4.png?ex=65c6a59d&is=65b4309d&hm=d8b912a9eed1d333d1326856ff3509c5ca0be4efee22604eeaeb4a2632a42c30&=&format=webp&quality=lossless&width=107&height=563) ;
         background-size: cover;
         /* height: 115.5rem; */
     }
@@ -3650,7 +3650,7 @@
     /* LOADER */
 
     #loading{
-        background-image: url(./images/map\ mobile.png);
+        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200565621088342026/map_mobile.png?ex=65c6a4dd&is=65b42fdd&hm=829ac62265b709737f4e33fbfb12c6e2d6c0677126c1175467328afec3c5ddc5&=&format=webp&quality=lossless&width=285&height=563);
         background-size: cover;
         overflow-y: hidden;
     }
