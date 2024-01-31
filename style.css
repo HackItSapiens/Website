@@ -280,7 +280,7 @@ html, body{
 }
 
 .navigation-wrap{
-    background-color: rgba(238, 210, 169, 0.297);
+    background-color: #feedbee9;
     position: fixed;
     width: 100%;
     left: 0;
@@ -446,12 +446,12 @@ html, body{
 /* ABOUT SECTION */
 #about{
     width: 100%;
-    height: 63vh;
+    height: 72vh;
 }
 
 .as h1{
     position: relative;
-    top: 2.5rem;
+    top: 6rem;
     font-family: var(--primary-font);
     color: var(--primary-color);
     font-weight: bold;
@@ -464,7 +464,7 @@ html, body{
     color: var(--primary-color);
     text-align: justify;
     font-size:xx-large;
-    padding: 3rem 0rem 0;
+    padding: 6.6rem 0rem 0;
 }
 
 /* HACKATHON TRACK SECTION */
@@ -651,6 +651,10 @@ html, body{
 
 .trophie h2,h3{
     font-weight: bold;
+}
+
+.trophie h2{
+    font-size: 3rem;
 }
 
 .txt2{
