@@ -36,7 +36,7 @@ function myFunction() {
   setTimeout(function() {
     click.style.display = 'none';
     document.getElementById('all').style.display = 'block';
-  }, 1200);
+  }, 1700);
 }
 
 
