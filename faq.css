@@ -22,6 +22,64 @@ html, body{
     height: 100vh;
 }
 
+/* NAVBAR SECTION */
+
+.nav2{
+    display: none;
+}
+
+.container img{
+    width: 5rem;
+}
+
+.navigation-wrap{
+    background-color: #feedbee9;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 0.125rem 1.75rem 0 rgba(65, 59, 59, 0.09);
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.navigation-wrap .nav-item{
+    padding: 0 0.125rem;
+    transition: all 200ms linear;
+}
+
+.navbar-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+
+.navbar-nav a{
+        transition: 1s;
+}
+
+.navbar-nav a:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.nav-link{
+    font-family:var(--secondary-font);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-color)!important;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.navigation-wrap.scroll-on{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0.125rem 0.175rem 0 #d68c1c66;
+    transition: all .15s ease-in-out 0s;
+}
+
 .btn{
     height: 2.2rem;
     border-radius: 100%;
@@ -43,7 +101,7 @@ html, body{
 }
 
 .faq{
-    margin-top: 10vh;
+    margin-top: 7rem;
     margin-bottom: 5vh;
 }
 

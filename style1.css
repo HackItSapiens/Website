@@ -93,14 +93,13 @@ html, body{
 } */
 
 #loading {
-    display: none;
     height: 100vh;
     width: 100vw;
     background-image: url('./images/Wireframe - 7.png');
     background-size: cover;
     position: fixed;
     overflow-y: hidden;
-    z-index: 1111;
+    z-index: 1;
     transition: opacity 2s ease-in-out;
   }
   
@@ -265,6 +264,7 @@ html, body{
 
 
 #all{
+    display: none;
     background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200546442780098660/WEBSITE.png?ex=65c69301&is=65b41e01&hm=02af21ec902e97635de49835912d15401a543e1e0359d1c7bf6748c082457a6a&=&format=webp&quality=lossless&width=121&height=565) ;
     background-size: cover;
 }
