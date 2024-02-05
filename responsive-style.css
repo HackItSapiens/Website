@@ -2161,9 +2161,13 @@
         height: 32.8vh;
     }
 
+    .as h1 {
+        top: 1rem;
+    }
+
     .as p{
         font-size: 0.9rem;
-        padding: 0.5rem 1.5rem 0rem 1.5rem;
+        padding: 1rem 1.5rem 0rem 1.5rem;
     }
 
     /* HACKATHON TRACKS */
@@ -3299,13 +3303,13 @@
     }
 
     .as h1{
-        top: 0;
+        top: 1rem;
     }
 
     .as p{
         font-size: 0.7rem;
         letter-spacing: 0.035rem;
-        padding: 0.5rem 1rem 0rem 1rem;
+        padding: 1rem 1rem 0rem 1rem;
     }
 
     #htm{
