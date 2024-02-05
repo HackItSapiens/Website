@@ -1183,6 +1183,7 @@
 
     .as p{
         font-size: 1.2rem;
+        letter-spacing: 0.093rem;
         padding: 1rem 0 0 0;
     }
 
@@ -1510,6 +1511,7 @@
 
     .as p{
         font-size: 1.2rem;
+        letter-spacing: 0.055rem;
         padding: 1rem 0 0 0;
     }
 
@@ -1823,6 +1825,7 @@
 
     .as p{
         font-size: 1.2rem;
+        letter-spacing: 0.025rem;
         padding: 1rem 0 0 0;
     }
 
@@ -3269,6 +3272,12 @@
         height: 2rem;
         width: 9rem;
     }
+
+    .as p{
+        letter-spacing: 0.03rem;
+        padding: 0.5rem 1rem 0rem 1rem;
+
+    }
 }
 
 @media screen and (max-width:391px) {
@@ -3291,6 +3300,12 @@
 
     .as h1{
         top: 0;
+    }
+
+    .as p{
+        font-size: 0.7rem;
+        letter-spacing: 0.035rem;
+        padding: 0.5rem 1rem 0rem 1rem;
     }
 
     #htm{
@@ -3422,7 +3437,8 @@
 
     .as p{
         font-size: 0.7rem;
-        padding: 0.5rem 1rem 0rem 1rem;
+        letter-spacing: 0.02rem;
+        padding: 0.5rem 1.5rem 0rem 0.5rem;
     }
 
     /* HACKATHON TRACKS */
@@ -3770,6 +3786,7 @@
 
     .as p{
         font-size: 0.7rem;
+        letter-spacing: 0.03rem;
         padding: 0.5rem 1rem 0rem 1rem;
     }
 

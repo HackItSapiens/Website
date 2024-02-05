@@ -1,25 +1,3 @@
-// const scroll1 = new LocomotiveScroll({
-//     el: document.querySelector(''),
-//     smooth: true
-// });
-
-// var myVar;
-// var click;
-
-// function loaderClick(){
-//   click = document.getElementById("loading");
-//   click.addEventListener("click",myFunction);
-// }
-
-// function myFunction(){
-//   myVar = setTimeout(onclick , 5000);
-// }
-
-// function onclick() {
-//   document.getElementById('loading').style.display = 'none';
-//   document.getElementById('all').style.display = 'block';
-// }
-
 var myVar;
 var click;
 
