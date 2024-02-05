@@ -264,7 +264,6 @@ html, body{
 
 
 #all{
-    display: none;
     background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200546442780098660/WEBSITE.png?ex=65c69301&is=65b41e01&hm=02af21ec902e97635de49835912d15401a543e1e0359d1c7bf6748c082457a6a&=&format=webp&quality=lossless&width=121&height=565) ;
     background-size: cover;
 }
@@ -462,6 +461,7 @@ html, body{
 .as p{
     font-family: var(--primary-font);
     color: var(--primary-color);
+    letter-spacing: 0.05rem;
     text-align: justify;
     font-size:xx-large;
     padding: 6.6rem 0rem 0;
@@ -678,7 +678,7 @@ html, body{
 /* PAST SPONSORS */
 #ps{
     width: 100%;
-    height: 200vh;
+    height: 215vh;
 }
 
 .psp{
@@ -745,7 +745,7 @@ html, body{
 #down{
     position: absolute;
     width: 100%;
-    margin-top: 52vh;
+    margin-top: 27.5rem;
 }
 
 #down img{
@@ -753,8 +753,29 @@ html, body{
 }
 
 #tb{
+    top: 5rem;
     height: 70vh;
     position: relative;
+}
+
+.btn3{
+    top: 4rem;
+    bottom: 2rem;
+    font-size: 2rem;
+    position: relative;
+    height: 4rem;
+    width: 17rem;
+    font-family: var(--primary-font);
+    background-color: #fde3bc6c;
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 2px 2px 8px #5B3803;
+}
+
+.btn3:hover{
+    background-color: #5B3803 !important;
+    color: var(--white-color);
 }
 
 /* PAST EVENT */
@@ -885,3 +906,5 @@ html, body{
     color: white;
     font-family: 'IBM Plex Serif';
 }
+
+

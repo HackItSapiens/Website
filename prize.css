@@ -1,0 +1,1004 @@
+:root{
+    --primary-color: #5B3803;
+    --secondary-color: #CB9235;
+    --white-color:#ffffff;
+    --primary-font: 'IM Fell DW Pica';
+    --secondary-font: 'Cherry Swash';
+}
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/fBG1.png) ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+/* SCROLL ANIMATION */
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+/* SCROLL_BAR ANIMATION */
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #563c04 #fbe2c4;
+  }
+  
+  /* Chrome, Edge and Safari */
+  *::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #D8AD6C;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #e4d29e98;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #e0cc9569;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #483109;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #5c4103;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #483109;
+  }
+
+
+/* NAVBAR SECTION */
+
+.nav2{
+    display: none;
+}
+
+.container img{
+    width: 5rem;
+}
+
+.navigation-wrap{
+    /* background-color: #dbb479e0; */
+    background-color: #feedbee9;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 0.125rem 1.75rem 0 rgba(65, 59, 59, 0.09);
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.navigation-wrap .nav-item{
+    padding: 0 0.125rem;
+    transition: all 200ms linear;
+}
+
+.navbar-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+
+.navbar-nav a{
+        transition: 1s;
+}
+
+.navbar-nav a:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.nav-link{
+    font-family:var(--secondary-font);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-color)!important;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.navigation-wrap.scroll-on{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0.125rem 0.175rem 0 #d68c1c66;
+    transition: all .15s ease-in-out 0s;
+}
+
+.cu{
+    font-family: cherry swash;
+    color: var(--primary-color);
+}
+
+/* PRIZE SECTION */
+#prm2{
+    display: none;
+}
+
+.prizesm h1{
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-top: 6rem;
+}
+
+.trophiem{
+    gap: 50px;
+}
+
+.tro1m,.tro2m,.tr03m{
+    position: relative;
+}
+
+.txt1m{
+    position: absolute;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 13vh;
+    text-shadow: #cb8d3189 1px 0 10px;
+}
+
+.trophiem h2,h3{
+    font-weight: bold;
+}
+
+.trophiem h2{
+    font-size: 3rem;
+}
+
+.txt2m{
+    position: absolute;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 18vh;
+    text-shadow: #cb8d3189 1px 0 10px;
+}
+
+.txt3m{
+    position: absolute;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 12vh;
+    text-shadow: #cb8d3189 1px 0 10px;
+}
+
+
+/* FOOTER */
+
+#foot{
+    display: none;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200562882467876914/fbg.png?ex=65c6a250&is=65b42d50&hm=93b904d41a271a2da844ab8b994d13262c63d603620bf0842a8ae288dbba1e16&=&format=webp&quality=lossless&width=1440&height=312);
+    background-size: cover;
+}
+
+.l,.bs,.add,.ce{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.l img{
+    height: 10vh;
+}
+
+.add,.bs,.ce {
+    color: white;
+    font-family: 'IBM Plex Serif';
+}
+
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width:1344px){
+    .prizesm{
+        position: relative;
+        top: 3rem;
+    }
+
+    .txt1m{
+        margin-top: 12vh;
+    }
+
+    .txt2m{
+        margin-top: 14vh;
+    }
+
+    .txt3m{
+        margin-top: 11vh;
+    }
+}
+
+@media screen and (max-width:1246px){
+    .prizesm{
+        position: relative;
+        top: 1rem;
+    }
+
+    .tr1m{
+        height: 25rem;
+    }
+
+    .tr2m{
+        height: 31rem;
+    }
+
+    .tr3m{
+        height: 23rem;
+    }
+
+    .txt1m{
+        margin-top: 10vh;
+    }
+
+    .txt1m h3, .txt2m h3, .txt3m h3{
+        font-size: 1.7rem;
+    }
+
+    .txt1m h2, .txt2m h2, .txt3m h2{
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width:1152px){
+    .prizesm{
+        position: relative;
+        top: 2rem;
+    }
+
+    .tr1m{
+        height: 28rem;
+    }
+
+    .tr2m{
+        height: 34rem;
+    }
+
+    .tr3m{
+        height: 25rem;
+    }
+
+    .txt1m{
+        margin-top: 10vh;
+    }
+
+    .txt3m{
+        margin-top: 10vh;
+    }
+
+    .txt1m h3, .txt2m h3, .txt3m h3{
+        font-size: 1.7rem;
+    }
+
+    .txt1m h2, .txt2m h2, .txt3m h2{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:1056px){
+    .prizesm{
+        position: relative;
+        top: 0rem;
+    }
+
+    .prizesm h1{
+        font-size: 2rem;
+        margin-top: 6rem;
+    }
+
+    .tr1m{
+        height: 25rem;
+    }
+
+    .tr2m{
+        height: 29rem;
+    }
+
+    .tr3m{
+        height: 23rem;
+    }
+
+    .txt1m{
+        margin-top: 13vh;
+    }
+
+    .txt3m{
+        margin-top: 11vh;
+    }
+
+    .txt2m{
+        margin-top: 17vh;
+    }
+
+    .txt1m h3, .txt2m h3, .txt3m h3{
+        font-size: 1.5rem;
+    }
+
+    .txt1m h2, .txt2m h2, .txt3m h2{
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .trophiem{
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 915px){
+    
+    #prm1{
+        display: none;
+    }
+
+    #prm2{
+        display: block;
+        height: 76vh;
+    }
+
+    .prizesm2 h1{
+        font-family: var(--primary-font);
+        color: var(--primary-color);
+        font-weight: bold;
+        font-size: 2rem;
+        margin-top: 7.5rem;
+    }
+
+    .tr1m2{
+        height: 25rem;
+    }
+
+    .tr2m2{
+        height: 31rem;
+    }
+
+    .tr3m2{
+        height: 24rem;
+    }
+
+    .p23{
+        gap: 160px;
+    }
+
+    .tro1m2{
+        position: relative;
+    }
+
+    .txt1m2{
+        margin-top: 5vh;
+        position: absolute;
+        font-family: var(--primary-font);
+        color: var(--primary-color);
+        text-align: center;
+        text-shadow: #cb8d3189 1px 0 10px;
+    }
+
+    .tro3m2{
+        position: relative;
+    }
+
+    .txt3m2{
+        margin-top: 5vh;
+        position: absolute;
+        font-family: var(--primary-font);
+        color: var(--primary-color);
+        text-align: center;
+        text-shadow: #cb8d3189 1px 0 10px;
+    }
+
+    .tro2m2{
+        position: relative;
+    }
+
+    .txt2m2{
+        margin-top: 8vh;
+        position: absolute;
+        font-family: var(--primary-font);
+        color: var(--primary-color);
+        text-align: center;
+        text-shadow: #cb8d3189 1px 0 10px;
+    }
+
+    .txt2m2 h3{
+        font-size: 1.7rem;
+    }
+
+    .txt2m2 h2{
+        font-size: 2.5rem;
+        font-weight: bold;
+
+    }
+
+    .txt1m2 h3, .txt3m2 h3{
+        font-size: 1.5rem;
+    }
+
+    .txt1m2 h2, .txt3m2 h2{
+        font-family: var(--primary-font);
+        color: var(--primary-color);
+        text-align: center;
+        text-shadow: #cb8d3189 1px 0 10px;
+        font-size: 2.1rem;
+        font-weight: bold;
+    }
+
+    #foot{
+        display: block;
+    }
+
+    /* footer section */
+
+    #foot{
+        height: 24vh;
+    }
+
+    .f{
+        height: 0vh;
+    }
+
+    .l,.bs,.add,.ce{
+        margin-top: 30vh;
+    }
+
+    .l img{
+        height: 5.5vh;
+    }
+
+    #foot h3{
+        font-size: .9rem;
+        font-weight: normal;
+    }
+
+    .bs2 svg{
+        height: 15px;
+        width: 15px;
+    }
+
+   .add p{
+        font-size: .65rem ;
+        font-weight: normal;
+   }
+
+   .ce p{
+        font-size: .65rem ;
+        font-weight: normal;
+    }
+
+    .bs p{
+        font-size: .65rem ;
+        font-weight: normal;
+    }
+}
+
+@media screen and (max-width: 821px){
+    #prm2{
+        height: 77vh;
+    }
+
+    .prizesm2 h1{
+        margin-top: 6.5rem;
+    }
+
+    .trophiem2{
+        gap: 0px;
+    }
+
+    .tr1m2{
+        height: 22rem;
+    }
+
+    .tr2m2{
+        height: 25rem;
+    }
+
+    .tr3m2{
+        height: 20rem;
+    }
+
+    .txt1m2 h3, .txt2m2 h3, .txt3m2 h3{
+        font-size: 1.3rem;
+    }
+
+    .txt1m2 h2, .txt2m2 h2, .txt3m2 h2{
+        font-size: 2rem;
+    }
+
+    /* footer section */
+
+    #foot{
+        height: 24vh;
+    }
+
+    .f{
+        height: 22vh;
+    }
+
+    .l,.bs,.add,.ce{
+        margin-top: 7vh;
+    }
+
+    #foot h3{
+        font-size: .9rem;
+        font-weight: normal;
+    }
+
+   .add p{
+        font-size: .65rem ;
+        font-weight: normal;
+   }
+
+   .ce p{
+        font-size: .65rem ;
+        font-weight: normal;
+    }
+
+    .bs p{
+        font-size: .65rem ;
+        font-weight: normal;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #prm2{
+        height: 92vh;
+    }
+
+    /* footer section */
+
+    #foot{
+        height: 24vh;
+    }
+
+    .f{
+        height: 22vh;
+    }
+
+    .l,.bs,.add,.ce{
+        margin-top: 7vh;
+    }
+
+    .l img{
+        height: 6vh;
+    }
+
+    #foot h3{
+        font-size: .9rem;
+        font-weight: normal;
+    }
+
+   .add p{
+        font-size: .65rem ;
+        font-weight: normal;
+   }
+
+   .ce p{
+        font-size: .65rem ;
+        font-weight: normal;
+    }
+
+    .bs p{
+        font-size: .65rem ;
+        font-weight: normal;
+    }
+}
+
+@media screen and (max-width: 540px){
+
+    #prm2 {
+        height: 95vh;
+    }
+
+    .prizesm2 h1{
+        font-size: 1.7rem;
+        margin-top: 7rem;
+    }
+
+    .tr1m2{
+        height: 15rem;
+    }
+
+    .tr2m2{
+        height: 18rem;
+    }
+
+    .tr3m2{
+        height: 14rem;
+    }
+
+    .txt1m2 h3, .txt2m2 h3, .txt3m2 h3{
+        font-size: 1rem;
+    }
+
+    .txt1m2 h2, .txt2m2 h2, .txt3m2 h2{
+        font-size: 1.5rem;
+    }
+
+    .txt2m{
+        margin-top: 8vh;
+    }
+
+    /* FOOTER */
+
+    #foot{
+        height: 20vh;
+    }
+    
+    .f{
+        position: relative;
+        height: 0vh;
+        width: 100%;
+    }
+    
+    .l,.bs,.add,.ce{
+        height: 7vh;
+        margin-top: 24vh;
+    }
+
+    #foot h3{
+        font-size: 0.6rem;
+    }
+    
+    .icons a{
+        position: relative;
+    }
+    
+    .icons svg{
+        top: 0.2vh;
+        position: absolute;
+        width: 1.5vh;
+        height: 1.5vh;
+    }
+    
+    .l img{
+        position: relative;
+        top: 2vh;
+        height: 4vh;
+    }
+    
+    .add{
+        top: 1vh;
+    }
+
+    .ce1{
+        height: 6vh;
+    }
+
+    .ce p{
+        margin-bottom: 0;
+    }
+    
+    .ce a{
+        position: relative;
+        height: 1.2vh;
+    }
+    
+    .bs1{
+        height: 5vh;
+    }
+    
+    .add h3, .bs h3, .ce h3{
+        margin-bottom: 0.2rem;
+        font-size: 0.5rem;
+    } 
+    
+    .add p, .bs p, .ce p{
+        font-size: 0.4rem;
+    }
+}
+
+@media screen and (max-width:440px){
+
+    #prm2 {
+        height: 80vh;
+    }
+
+    .p23 {
+        position: relative;
+        top: 2rem;
+        gap: 56px;
+    }
+
+    .txt2m2 {
+        margin-top: 6vh;
+    }
+
+    .txt3m2 {
+        margin-top: 4vh;
+    }
+
+    /* FOOTER */
+
+    #foot{
+        height: 21vh;
+    }
+    
+    .l,.bs,.add,.ce{
+        margin-top: 26vh;
+    }
+
+    #foot h3{
+        font-size: 0.6rem;
+    }
+    
+    .icons a{
+        position: relative;
+    }
+    
+    .icons svg{
+        top: 0.2vh;
+        position: absolute;
+        width: 10px;
+        height: 10px;
+    }
+    
+    .l img{
+        position: relative;
+        top: 2vh;
+        height: 3.5vh;
+    }
+    
+    .add{
+        top: 1vh;
+    }
+
+    .ce1{
+        height: 4vh;
+    }
+
+    .ce p{
+        margin-bottom: 0;
+    }
+    
+    .ce a{
+        position: relative;
+        height: 1.2vh;
+    }
+    
+    .bs1{
+        height: 3.5vh;
+    }
+    
+    .add h3, .bs h3, .ce h3{
+        margin-bottom: 0.2rem;
+        font-size: 0.5rem;
+    } 
+    
+    .add p, .bs p, .ce p{
+        font-size: 0.4rem;
+    }
+}
+
+@media screen and (max-width:415px){
+
+}
+
+@media screen and (max-width:391px){
+    .prizesm2 h1 {
+        font-size: 1.5rem;
+        margin-top: 6rem;
+    }
+
+    .p23 {
+        top: 1rem;
+        gap: 39px;
+    }
+
+    #foot {
+        height: 20vh;
+    }
+
+    .bs1 {
+        height: 4.1vh;
+    }
+
+    .ce1 {
+        height: 4.5vh;
+    }
+}
+
+@media screen and (max-width:380px){
+    #prm2 {
+        height: 90vh;
+    }
+
+    .prizesm2 h1{
+        font-size: 1.3rem;
+        margin-top: 5rem;
+    }
+
+    .tr1m2{
+        height: 13rem;
+    }
+
+    .tr2m2{
+        height: 15rem;
+    }
+
+    .tr3m2{
+        height: 12rem;
+    }
+
+    .txt1m2 h3, .txt2m2 h3, .txt3m2 h3{
+        font-size: 1rem;
+    }
+
+    .txt1m2 h2, .txt2m2 h2, .txt3m2 h2{
+        font-size: 1.5rem;
+    }
+
+    .txt2m{
+        margin-top: 8vh;
+    }
+
+    /* FOOTER */
+
+    #foot{
+        height: 21vh;
+    }
+
+    
+    .l,.bs,.add,.ce{
+        height: 7vh;
+        margin-top: 24vh;
+    }
+
+    #foot h3{
+        font-size: 0.6rem;
+    }
+    
+    .icons a{
+        position: relative;
+    }
+    
+    .icons svg{
+        top: 0.2vh;
+        position: absolute;
+        width: 1.5vh;
+        height: 1.5vh;
+    }
+    
+    .l img{
+        position: relative;
+        top: 2vh;
+        height: 4vh;
+    }
+    
+    .add{
+        top: 1vh;
+    }
+
+    .ce1{
+        height: 6vh;
+    }
+
+    .ce p{
+        margin-bottom: 0;
+    }
+    
+    .ce a{
+        position: relative;
+        height: 1.2vh;
+    }
+    
+    .bs1{
+        height: 5vh;
+    }
+    
+    .add h3, .bs h3, .ce h3{
+        margin-bottom: 0.2rem;
+        font-size: 0.5rem;
+    } 
+    
+    .add p, .bs p, .ce p{
+        font-size: 0.4rem;
+    }
+}
+
+@media screen and (max-width:361px){
+    #prm2 {
+        height: 79vh;
+    }
+
+    /* FOOTER */
+
+    #foot{
+        height: 22vh;
+    }
+    
+    .f{
+        position: relative;
+        height: 22vh;
+        width: 100%;
+    }
+    
+    .l,.bs,.add,.ce{
+        height: 7vh;
+        margin-top: 3vh;
+    }
+
+    #foot h3{
+        font-size: 0.6rem;
+    }
+    
+    .icons a{
+        position: relative;
+    }
+    
+    .icons svg{
+        top: 0.2vh;
+        position: absolute;
+        width: 1.5vh;
+        height: 1.5vh;
+    }
+    
+    .l img{
+        position: relative;
+        top: 2vh;
+        height: 4vh;
+    }
+    
+    .add{
+        top: 1vh;
+    }
+
+    .ce1{
+        height: 6vh;
+    }
+
+    .ce p{
+        margin-bottom: 0;
+    }
+    
+    .ce a{
+        position: relative;
+        height: 1.2vh;
+    }
+    
+    .bs1{
+        height: 5vh;
+    }
+    
+    .add h3, .bs h3, .ce h3{
+        margin-bottom: 0.2rem;
+        font-size: 0.5rem;
+    } 
+    
+    .add p, .bs p, .ce p{
+        font-size: 0.4rem;
+    }
+}

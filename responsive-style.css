@@ -106,7 +106,7 @@
     /* past sponsors section */
 
     #ps{
-        height: 169vh;
+        height: 185vh;
     }
 
     .logos{
@@ -147,7 +147,7 @@
     }
 
     #down{
-        margin-top: 44vh;
+        margin-top: 55vh;
     }
 
     /* past event section */
@@ -348,6 +348,10 @@
         height: 100vh;
     }
 
+    #ps{
+        height: 197vh;
+    }
+
     .logos {
         height: 77vh;
     }
@@ -358,7 +362,7 @@
     }
 
     #down {
-        margin-top: 45vh;
+        margin-top: 56vh;
     }
 
     #ps {
@@ -483,7 +487,7 @@
     /* past sponsors section */
 
     #ps {
-        height: 150vh;
+        height: 167vh;
     }
 
     .logos{
@@ -497,14 +501,16 @@
     }
 
     #down {
-        margin-top: 45vh;
+        margin-top: 57vh;
     }
 
     #foot{
         height: 40vh;
     }
 
-    
+    #tb{
+        margin-top: 3vh;
+    }
 
 
 }
@@ -528,7 +534,7 @@
 
    /* home section */
    #home{
-       height: 74vh;
+       height: 89vh;
    }
 
    .background-images h2{
@@ -590,7 +596,7 @@
    /* hackathon track section */
 
    #ht{
-       height: 92vh;
+       height: 100vh;
    }
 
    .ht-sub{
@@ -608,15 +614,27 @@
     }
 
     .txt1 h3, .txt3 h3{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .txt1 h2, .txt3 h2{
-        font-size: 1.6rem;
+        font-size: 1.9rem;
+    }
+
+    .txt2 h3{
+        font-size: 1.5rem;
+    }
+
+    .txt2 h2{
+        font-size: 1.8rem;
+    }
+
+    .txt3{
+        margin-top: 10vh;
     }
 
     .txt2{
-        margin-top: 17vh;
+        margin-top: 15vh;
     }
 
     .tr1{
@@ -634,7 +652,7 @@
    /* past sponsors section */
 
    #ps {
-       height: 150vh;
+       height: 186vh;
    }
 
    .logos{
@@ -666,7 +684,7 @@
    }
 
    #down{
-    margin-top: 48vh;
+    margin-top: 62vh;
    }
 
    .h h1{
@@ -678,7 +696,7 @@
    }
 
    #down {
-       margin-top: 45vh;
+       margin-top: 62vh;
    }
 
    .row3, .row2 {
@@ -690,7 +708,7 @@
     }
 
    #foot{
-    height: 37vh;
+    height: 38vh;
     }
 
     
@@ -840,7 +858,7 @@
     /* past sponsors section */
 
     #ps{
-        height: 150vh;
+        height: 177vh;
     }
 
     .logos{
@@ -880,7 +898,7 @@
     }
 
     #down{
-        margin-top: 40vh;
+        margin-top: 59vh;
     }
 
     /* past event section */
@@ -1006,7 +1024,7 @@
     /* about section */
 
     #about{
-        height: 60vh;
+        height: 61vh;
     }
 
     .as p{
@@ -1223,7 +1241,7 @@
     /* past sponsors section */
 
     #ps{
-        height: 80vh;
+        height: 89vh;
     }
 
     .logos{
@@ -1264,7 +1282,7 @@
     }
 
     #down{
-        margin-top: 21.7vh;
+        margin-top: 27.7vh;
     }
 
     /* past event section */
@@ -1275,7 +1293,7 @@
 
     #pem{
         display: block;
-        height: 44vh;
+        height: 40vh;
     }
 
     .pe1 {
@@ -1550,7 +1568,7 @@
     /* past sponsors section */
 
     #ps{
-        height: 90vh;
+        height: 98vh;
     }
 
     .logos{
@@ -1591,7 +1609,7 @@
     }
 
     #down{
-        margin-top: 24.3vh;
+        margin-top: 31.3vh;
     }
 
     /* past event section */
@@ -1602,7 +1620,7 @@
 
     #pem{
         display: block;
-        height: 49vh;
+        height: 46vh;
     }
 
     .pe1 {
@@ -1724,7 +1742,7 @@
     }
 }
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:768px){
 
     .mobile{
         display: none;
@@ -1859,7 +1877,7 @@
     /* past sponsors section */
 
     #ps{
-        height: 90vh;
+        height: 102vh;
     }
 
     .logos{
@@ -1900,7 +1918,14 @@
     }
 
     #down{
-        margin-top: 24.3vh;
+        margin-top: 32.3vh;
+    }
+
+    .btn3{
+        font-size: 1.6rem;
+        position: relative;
+        height: 3rem;
+        width: 13rem;
     }
 
     /* past event section */
@@ -2013,7 +2038,7 @@
     }
 
     .l img{
-        height: 7vh;
+        height: 6vh;
     }
 
     #foot h3{
@@ -2258,7 +2283,7 @@
     /* PAST SPONSORS */
 
     #psm{
-        height: 90vh;
+        height: 100vh;
     }
 
     .psp{
@@ -2307,12 +2332,20 @@
     }
 
     #tb{
-        top: 1rem;
+        top: 3rem;
         height: 25vh;
     }
 
     #down{
-        margin-top: 23vh;
+        margin-top: 28vh;
+    }
+
+    .btn3{
+        top: 3rem;
+        font-size: 1.2rem;
+        position: relative;
+        height: 2.5rem;
+        width: 11rem;
     }
 
     /* PAST EVENT */
@@ -2369,7 +2402,7 @@
     
     .l,.bs,.add,.ce{
         height: 7vh;
-        margin-top: 3vh;
+        margin-top: 24vh;
     }
 
     #foot h3{
@@ -3019,7 +3052,7 @@
     /* PAST SPONSORS */
 
     #psm{
-        height: 73vh;
+        height: 82vh;
     }
 
     .psp{
@@ -3064,12 +3097,20 @@
     }
 
     #tb{
-        top: 1rem;
+        top: 3rem;
         height: 17vh;
     }
 
     #down{
-        margin-top: 16vh;
+        margin-top: 21vh;
+    }
+
+    .btn3 {
+        top: 3rem;
+        font-size: 1.1rem;
+        position: relative;
+        height: 2rem;
+        width: 10rem;
     }
 
     /* PAST EVENT */
@@ -3115,7 +3156,7 @@
     /* FOOTER */
 
     #foot{
-        height: 20vh;
+        height: 21vh;
     }
     
     .l,.bs,.add,.ce{
@@ -3206,6 +3247,27 @@
         background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200565988115107861/map415.png?ex=65c6a535&is=65b43035&hm=ea3e2d945d1ca193bc13e3ef1429784bb5464d1696874008fca55bd162e97f63&=&format=webp&quality=lossless&width=261&height=565);
         background-size: cover;
         overflow-y: hidden;
+    }
+
+    #psm {
+        height: 81vh;
+    }
+
+    #tb {
+        top: 3rem;
+        height: 17vh;
+    }
+
+    #down {
+        margin-top: 21vh;
+    }
+
+    .btn3 {
+        top: 3rem;
+        font-size: 1rem;
+        position: relative;
+        height: 2rem;
+        width: 9rem;
     }
 }
 
@@ -3464,7 +3526,7 @@
     /* PAST SPONSORS */
 
     #psm{
-        height: 87vh;
+        height: 89vh;
     }
 
     .psp{
@@ -3515,6 +3577,14 @@
 
     #down{
         margin-top: 21.5vh;
+    }
+
+    .btn3 {
+        top: 2rem;
+        font-size: 0.8rem;
+        position: relative;
+        height: 1.6rem;
+        width: 7rem;
     }
 
     /* PAST EVENT */
@@ -3570,7 +3640,7 @@
     
     .l,.bs,.add,.ce{
         height: 7vh;
-        margin-top: 3vh;
+        margin-top: 24vh;
     }
 
     #foot h3{
@@ -3805,7 +3875,7 @@
     /* PAST SPONSORS */
 
     #psm{
-        height: 73vh;
+        height: 77vh;
     }
 
     .psp{
