@@ -4059,5 +4059,50 @@
     
 }
 
+@media screen and (max-width:351px){
 
+    html, body {
+        height: 113.7rem;
+    }
 
+    #home {
+        height: 49vh;
+    }
+
+    #about {
+        height: 35.8vh;
+    }
+
+    #htm {
+        height: 39vh;
+    }
+
+    #psm {
+        height: 81vh;
+    }
+
+    #pem {
+        height: 36vh;
+    }
+}
+
+@media screen and (max-width:341px){
+
+    .potter {
+        margin-left: 16rem;
+        margin-top: 6rem;
+        height: 1.8rem;
+    }
+
+    .snitch {
+        height: 1.2rem;
+        width: 1.6rem;
+        margin-left: 3rem;
+        margin-top: 5.5rem;
+    }
+
+    #about {
+        height: 38.8vh;
+    }
+
+}
