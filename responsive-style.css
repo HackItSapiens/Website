@@ -86,6 +86,9 @@
 
     /* prizes section */
 
+    #pr{
+        height: 74vh;
+    }
 
     .prizes h1{
         margin-top: 3vh;
@@ -103,7 +106,7 @@
         margin-top: 12vh;
     }
 
-    /* past sponsors section */
+    /* past sponsors section
 
     #ps{
         height: 185vh;
@@ -148,12 +151,16 @@
 
     #down{
         margin-top: 55vh;
-    }
+    } */
 
     /* past event section */
 
     #pe{
         height: 203vh;
+    }
+
+    .roots{
+        margin-top: 3rem;
     }
 
     .pe1{
@@ -230,17 +237,25 @@
 
 }
 
+@media screen and (max-width:1280px){
+    #home {
+        height: 87vh;
+    }
+
+    #pe {
+        height: 224vh;
+    }
+
+    .potter{
+        margin-left: 72rem;
+    }
+}
+
 @media screen and (max-width:1248px){
     /* common */
 
     .mobile{
         display: none;
-    }
-
-    #loading{
-        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200563796012453888/map1248.png?ex=65c6a32a&is=65b42e2a&hm=9928cd464fce3fb8c4b62539ded9a6a0404946afe6d666989ebde675c374f29f&=&format=webp&quality=lossless&width=926&height=565);
-        background-size: cover;
-        overflow-y: hidden;
     }
 
     /* home section */
@@ -291,6 +306,10 @@
         50%{
             transform: translateX(100px);
         }
+    }
+
+    #pe {
+        height: 224vh;
     }
 
     /* footer section */
@@ -345,7 +364,7 @@
     }
 
     #pr {
-        height: 100vh;
+        height: 91vh;
     }
 
     #ps{
@@ -356,17 +375,21 @@
         height: 77vh;
     }
 
-    #tb {
+    /* #tb {
         height: 58vh;
         margin-top: 3.5vh;
     }
 
     #down {
         margin-top: 56vh;
-    }
+    } */
 
-    #ps {
+    /* #ps {
         height: 193vh;
+    } */
+
+    #pe{
+        height: 237vh;
     }
 
     #foot {
@@ -389,15 +412,9 @@
         font-size: 1.9rem;
     }
 
-    #loading{
-        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200563979446124686/map1152.png?ex=65c6a356&is=65b42e56&hm=51704c139112662624fa03361f7783af693db6198ff0fde20ab19bc94f0f40fc&=&format=webp&quality=lossless&width=853&height=565);
-        background-size: cover;
-        overflow-y: hidden;
-    }
-
     /* home section */
     #home{
-        height: 79vh;
+        height: 98vh;
     }
 
     #logo{
@@ -455,7 +472,7 @@
     /* about section */
 
     #about{
-        height: 56vh;
+        height: 65vh;
     }
 
     .as p{
@@ -465,11 +482,11 @@
     /* hackathon track section */
 
     #ht{
-        height: 85vh;
+        height: 110vh;
     }
 
     .ht-sub{
-        padding-top: 11vh;
+        padding-top: 17vh;
     }
 
     .t11 img{
@@ -481,10 +498,10 @@
     }
 
     #pr{
-        height: 85vh;
+        height: 93vh;
     }
 
-    /* past sponsors section */
+    /* past sponsors section
 
     #ps {
         height: 167vh;
@@ -502,7 +519,7 @@
 
     #down {
         margin-top: 57vh;
-    }
+    } */
 
     #foot{
         height: 40vh;
@@ -526,11 +543,6 @@
        font-size: 1.9rem;
    }
 
-   #loading{
-    background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200564350713331752/map1056.png?ex=65c6a3ae&is=65b42eae&hm=5d740d96ac17c3063fd4015d132a94b0f8debb190a16ed49946fa83e0262ea57&=&format=webp&quality=lossless&width=782&height=565);
-    background-size: cover;
-    overflow-y: hidden;
-}
 
    /* home section */
    #home{
@@ -651,7 +663,7 @@
 
    /* past sponsors section */
 
-   #ps {
+   /* #ps {
        height: 186vh;
    }
 
@@ -701,10 +713,14 @@
 
    .row3, .row2 {
     height: 120vh;
+    } */
+
+    .roots {
+        margin-top: 0rem;
     }
 
     #pe {
-        height: 183vh;
+        height: 216vh;
     }
 
    #foot{
@@ -734,13 +750,8 @@
 
     h1{
         font-size: 1.9rem;
-    }
-
-    #loading{
-        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200564499833421844/map1024.png?ex=65c6a3d2&is=65b42ed2&hm=acf8dd18ea3416b3e54bbb6ad97491bedf5ebfef2b9563ddd2f82019745fe14e&=&format=webp&quality=lossless&width=951&height=565);
-        background-size: cover;
-        overflow-y: hidden;
-    }
+    }  overflow-y: hidden;
+    
 
     /* home section */
     #home{
@@ -856,7 +867,7 @@
     }
 
     /* past sponsors section */
-
+/* 
     #ps{
         height: 177vh;
     }
@@ -899,12 +910,12 @@
 
     #down{
         margin-top: 59vh;
-    }
+    } */
 
     /* past event section */
 
     #pe{
-        height: 190vh;
+        height: 206vh;
     }
 
     .pe1{
@@ -1114,12 +1125,6 @@
         font-size: 1.6rem;
     }
 
-    #loading{
-        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200564653500137492/map915.png?ex=65c6a3f6&is=65b42ef6&hm=bc9c428e42b5dc756453a07bb594409f330845a94c1e0b1675f87d963fa3ccf2&=&format=webp&quality=lossless&width=377&height=565);
-        background-size: cover;
-        overflow-y: hidden;
-    }
-
     /* home section */
     #home{
         height: 39vh;
@@ -1241,7 +1246,7 @@
 
     /* past sponsors section */
 
-    #ps{
+    /* #ps{
         height: 89vh;
     }
 
@@ -1284,7 +1289,7 @@
 
     #down{
         margin-top: 27.7vh;
-    }
+    } */
 
     /* past event section */
 
@@ -1294,17 +1299,18 @@
 
     #pem{
         display: block;
-        height: 40vh;
+        height: 44vh;
     }
 
     .pe1 {
         width: 65vh;
-        height: 39vh;
+        height: 36vh;
         
     }
 
     .h h1{
         margin-top: 0;
+        margin-bottom: 2rem;
     }
 
     .carousel{
@@ -1569,7 +1575,7 @@
 
     /* past sponsors section */
 
-    #ps{
+    /* #ps{
         height: 98vh;
     }
 
@@ -1612,7 +1618,7 @@
 
     #down{
         margin-top: 31.3vh;
-    }
+    } */
 
     /* past event section */
 
@@ -1622,13 +1628,7 @@
 
     #pem{
         display: block;
-        height: 46vh;
-    }
-
-    .pe1 {
-        width: 65vh;
-        height: 39vh;
-        
+        height: 49vh;
     }
 
     .h h1{
@@ -1756,12 +1756,6 @@
         font-size: 1.6rem;
     }
 
-    #loading{
-        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200564986783731843/map768.png?ex=65c6a446&is=65b42f46&hm=17b2d5481b1c2203346c1a489e2d2cbe0ef8b0a8c720f10561659856581f50ac&=&format=webp&quality=lossless&width=425&height=565);
-        background-size: cover;
-        overflow-y: hidden;
-    }
-
     /* home section */
     #home{
         height: 45vh;
@@ -1879,7 +1873,7 @@
 
     /* past sponsors section */
 
-    #ps{
+    /* #ps{
         height: 102vh;
     }
 
@@ -1929,7 +1923,7 @@
         position: relative;
         height: 3rem;
         width: 13rem;
-    }
+    } */
 
     /* past event section */
 
@@ -1939,13 +1933,7 @@
 
     #pem{
         display: block;
-        height: 49vh;
-    }
-
-    .pe1 {
-        width: 65vh;
-        height: 39vh;
-        
+        height: 54vh;
     }
 
     .h h1{
@@ -2092,14 +2080,6 @@
     #all{
         background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200565202207379536/Android_Large_-_3.png?ex=65c6a479&is=65b42f79&hm=76ef7212da97f86962b5cc4f4ec975c3802e56ce5f40038919653d7939d9ca4c&=&format=webp&quality=lossless&width=107&height=563) ;
         background-size: cover;
-    }
-
-    /* LOADER */
-
-    #loading{
-        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200565202668769360/map540.png?ex=65c6a479&is=65b42f79&hm=ddee3765b7ab9e8ac139fe72ab0b1eedc1738a0c3e6009920b2ea7ee872ab8d9&=&format=webp&quality=lossless&width=423&height=565);
-        background-size: cover;
-        overflow-y: hidden;
     }
 
     /* HOME */
@@ -2289,7 +2269,7 @@
 
     /* PAST SPONSORS */
 
-    #psm{
+    /* #psm{
         height: 100vh;
     }
 
@@ -2353,12 +2333,12 @@
         position: relative;
         height: 2.5rem;
         width: 11rem;
-    }
+    } */
 
     /* PAST EVENT */
 
     #pem{
-        height: 32vh;
+        height: 43vh;
     }
 
     .pe1{
@@ -2680,7 +2660,7 @@
 
     /* PAST SPONSORS */
 
-    #psm{
+    /* #psm{
         height: 73vh;
     }
 
@@ -2732,7 +2712,7 @@
 
     #down{
         margin-top: 16vh;
-    }
+    } */
 
     /* PAST EVENT */
 
@@ -2863,20 +2843,12 @@
     }
 
     html, body{
-        height: 132rem;
+        height: 98rem;
     }
 
     #all{
         background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200565202207379536/Android_Large_-_3.png?ex=65c6a479&is=65b42f79&hm=76ef7212da97f86962b5cc4f4ec975c3802e56ce5f40038919653d7939d9ca4c&=&format=webp&quality=lossless&width=107&height=563) ;
         background-size: cover;
-    }
-
-    /* LOADER */
-
-    #loading{
-        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200565782137016331/map440.png?ex=65c6a503&is=65b43003&hm=90484f1d8f7e46ae8a0db5c6992c14a1e7526e34c082726dcffe2a96c933d627&=&format=webp&quality=lossless&width=261&height=565);
-        background-size: cover;
-        overflow-y: hidden;
     }
 
     /* HOME */
@@ -3058,7 +3030,7 @@
 
     /* PAST SPONSORS */
 
-    #psm{
+    /* #psm{
         height: 82vh;
     }
 
@@ -3118,12 +3090,12 @@
         position: relative;
         height: 2rem;
         width: 10rem;
-    }
+    } */
 
     /* PAST EVENT */
 
-    #pem{
-        height: 25vh;
+    #pem {
+        height: 31vh;
     }
 
     .pe1{
@@ -3227,7 +3199,7 @@
 
 
     html, body{
-        height: 132rem;
+        height: 99rem;
     }
 
     #all{
@@ -3248,15 +3220,8 @@
         transform: none;
 }
 
-    /* LOADER */
 
-    #loading{
-        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200565988115107861/map415.png?ex=65c6a535&is=65b43035&hm=ea3e2d945d1ca193bc13e3ef1429784bb5464d1696874008fca55bd162e97f63&=&format=webp&quality=lossless&width=261&height=565);
-        background-size: cover;
-        overflow-y: hidden;
-    }
-
-    #psm {
+    /* #psm {
         height: 81vh;
     }
 
@@ -3275,18 +3240,22 @@
         position: relative;
         height: 2rem;
         width: 9rem;
-    }
+    } */
 
     .as p{
         letter-spacing: 0.03rem;
         padding: 0.5rem 1rem 0rem 1rem;
 
     }
+
+    #pem {
+        height: 32vh;
+    }
 }
 
 @media screen and (max-width:391px) {
     html,body{
-        height: 128rem;
+        height: 92rem;
     }
 
     #all{
@@ -3336,6 +3305,10 @@
     .ce1 {
         height: 4.5vh;
     }
+
+    #pem {
+        height: 34vh;
+    }
 }
 
 @media screen and (max-width:380px){
@@ -3363,21 +3336,12 @@
     }
 
     html, body{
-        
-        height: 123.7rem;
+        height: 91.7rem;
     }
 
     #all{
         background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200566424435958012/Android_Large_-_4.png?ex=65c6a59d&is=65b4309d&hm=d8b912a9eed1d333d1326856ff3509c5ca0be4efee22604eeaeb4a2632a42c30&=&format=webp&quality=lossless&width=107&height=563) ;
         background-size: cover;
-    }
-
-    /* LOADER */
-
-    #loading{
-        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200566156076007475/map375.png?ex=65c6a55d&is=65b4305d&hm=0bc3be5b45a7ec99c4f590b33d2825a989565fcbc1100b54f9b875ec956274fa&=&format=webp&quality=lossless&width=297&height=565);
-        background-size: cover;
-        overflow-y: hidden;
     }
 
     /* HOME */
@@ -3545,7 +3509,7 @@
 
     /* PAST SPONSORS */
 
-    #psm{
+    /* #psm{
         height: 89vh;
     }
 
@@ -3605,12 +3569,12 @@
         position: relative;
         height: 1.6rem;
         width: 7rem;
-    }
+    } */
 
     /* PAST EVENT */
 
     #pem{
-        height: 34vh;
+        height: 42vh;
     }
 
     .pe1{
@@ -3738,14 +3702,6 @@
         /* height: 115.5rem; */
     }
 
-    /* LOADER */
-
-    #loading{
-        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200565621088342026/map_mobile.png?ex=65c6a4dd&is=65b42fdd&hm=829ac62265b709737f4e33fbfb12c6e2d6c0677126c1175467328afec3c5ddc5&=&format=webp&quality=lossless&width=285&height=563);
-        background-size: cover;
-        overflow-y: hidden;
-    }
-
     /* HOME */
 
     #home{
@@ -3855,7 +3811,7 @@
     /* PRIZES */
 
     #pr{
-        height: 33vh;
+        height: 30vh;
     }
 
     .prizes h1{
@@ -3895,7 +3851,7 @@
 
     /* PAST SPONSORS */
 
-    #psm{
+    /* #psm{
         height: 77vh;
     }
 
@@ -3947,12 +3903,12 @@
 
     #down{
         margin-top: 18.5vh;
-    }
+    } */
 
     /* PAST EVENT */
 
     #pem{
-        height: 31vh;
+        height: 37vh;
     }
 
     .pe1{
@@ -4077,9 +4033,9 @@
         height: 39vh;
     }
 
-    #psm {
+    /* #psm {
         height: 81vh;
-    }
+    } */
 
     #pem {
         height: 36vh;

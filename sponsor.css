@@ -17,27 +17,13 @@
 html, body{
     margin: 0;
     padding: 0;
-    background-image: url(./images/spBG.png);
+    background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1208077870325301248/spBG.png?ex=65e1f931&is=65cf8431&hm=d5af224c0c837534ee499f22bc7beccbe7a1f0c36825861c014c2bd45b33228b&=&format=webp&quality=lossless&width=387&height=565);
     width: 100%;
     background-size: cover;
 }
 
-#sponsor1{
+#sponsor1, #foot{
     display: none;
-}
-
-/* SCROLL ANIMATION */
-
-.reveal{
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: all 2s ease;
-}
-
-.reveal.active{
-    transform: translateY(0px);
-    opacity: 1;
 }
 
 /* SCROLL_BAR ANIMATION */
@@ -159,8 +145,48 @@ html, body{
     color: var(--primary-color);
 }
 
+.title{
+    height: 160px;
+    width: 54rem;
+    margin-top: 2rem;
+    border-radius: 6px;
+    background-image: var(--bs-gradient);
+}
+
+.h2t{
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
+.pt{
+    font-family: var(--primary-font);
+    text-align: justify;
+}
+
+.at .h2t{
+    color: var(--primary-color);
+}
+
+.at .pt{
+    color: black;
+}
+
+.at{
+    text-decoration: none;
+}
+
+.content{
+    width: 29rem;
+}
+
+.la{
+    height: 5rem;
+}
+
 .srow1{
-    width: 37rem;
+    width: 76rem;
     margin-top: 3rem;
 }
 
@@ -205,20 +231,30 @@ html, body{
 }
 
 
+/* FOOTER */
 
+#foot{
+    position: relative;
+    width: 100%;
+    /* height: 65vh; */
+    bottom: 0;
+    background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200562882467876914/fbg.png?ex=65c6a250&is=65b42d50&hm=93b904d41a271a2da844ab8b994d13262c63d603620bf0842a8ae288dbba1e16&=&format=webp&quality=lossless&width=1440&height=312);
+    background-size: cover;
+}
 
+.l,.bs,.add,.ce{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
 
+.l img{
+    height: 10vh;
+}
 
-
-
-
-
-
-
-
-
-
-
+.add,.bs,.ce {
+    color: white;
+    font-family: 'IBM Plex Serif';
+}
 
 
 
@@ -226,6 +262,26 @@ html, body{
 
 
 /* RESPONSIVENESS */
+@media screen and (max-width:1344px){
+    .title{
+        margin-top: 3rem;
+    }
+
+    .srow1{
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width:1248px){
+    .srow1 {
+        width: 70rem;
+    }
+
+    .s1, .s2, .s3, .s4{
+        width: 256px;
+    }
+}
+
 @media screen and (max-width:1152px){
     .h1{
         font-size: 2rem;
@@ -237,9 +293,13 @@ html, body{
         font-size: 1.5rem;
     }
 
+    .srow1{
+        width: 68rem;
+    }
+
     .s1, .s2, .s3, .s4{
         height: 166px;
-        width: 265px;
+        width: 250px;
     }
 
     .s1 img{
@@ -263,6 +323,32 @@ html, body{
     }
 }
 
+@media screen and (max-width:1056px){
+    .srow1 {
+        width: 62rem;
+    }
+
+    .s1, .s2, .s3, .s4 {
+        height: 166px;
+        width: 223px;
+    }
+
+    .title{
+        margin-top: 2rem;
+    }
+
+    .srow1{
+        margin-top: 3rem;
+    }
+
+    .s1 img {
+        height: 50px;
+        width: 199px;
+        margin-top: 2rem;
+    }
+
+}
+
 @media screen and (max-width: 915px){
     #sponsor1{
         display: flex;
@@ -283,10 +369,38 @@ html, body{
         font-size: 2rem;
     }
 
+    #foot{
+        display: block;
+    }
+
+    .h11{
+        font-size: 2.5rem;
+        margin-top: 7rem;
+        margin-bottom: 1rem;
+    }
+
+    .s41{
+        margin-bottom: 3rem;
+    }
+
+    .title {
+        height: 280px;
+        width: 33rem;
+    }
+
+    .h2t {
+        font-size: 2rem;
+    }
+
+    .content {
+        margin-top: 1rem;
+        width: 24rem;
+    }
+
     .s11, .s21, .s31, .s41{
         margin-top: 3rem;
         height: 198px;
-        width: 349px;
+        width: 405px;
     }
 
     .s11 img{
@@ -308,6 +422,49 @@ html, body{
         height: 90px;
         width: 90px;
     }
+
+    /* footer section */
+
+    #foot{
+        height: 24vh;
+    }
+
+    .f{
+        height: 0vh;
+    }
+
+    .l,.bs,.add,.ce{
+        margin-top: 30vh;
+    }
+
+    .l img{
+        height: 5.5vh;
+    }
+
+    #foot h3{
+        font-size: .9rem;
+        font-weight: normal;
+    }
+
+    .bs2 svg{
+        height: 15px;
+        width: 15px;
+    }
+
+   .add p{
+        font-size: .65rem ;
+        font-weight: normal;
+   }
+
+   .ce p{
+        font-size: .65rem ;
+        font-weight: normal;
+    }
+
+    .bs p{
+        font-size: .65rem ;
+        font-weight: normal;
+    }
 }
 
 @media screen and (max-width: 821px){
@@ -320,9 +477,11 @@ html, body{
     .h21{
         margin-top: 1.5rem;
     }
-}
 
-@media only screen and (max-width:768px){
+    #foot{
+        display: block;
+    }
+
     .h11{
         font-size: 2.5rem;
         margin-top: 7rem;
@@ -332,11 +491,173 @@ html, body{
     .s41{
         margin-bottom: 3rem;
     }
+
+    .title {
+        height: 280px;
+        width: 33rem;
+    }
+
+    .h2t {
+        font-size: 2rem;
+    }
+
+    .content {
+        margin-top: 1rem;
+        width: 24rem;
+    }
+
+    /* footer section */
+
+    #foot{
+        height: 24vh;
+    }
+
+    .f{
+        height: 22vh;
+    }
+
+    .l,.bs,.add,.ce{
+        margin-top: 7vh;
+    }
+
+    #foot h3{
+        font-size: .9rem;
+        font-weight: normal;
+    }
+
+   .add p{
+        font-size: .65rem ;
+        font-weight: normal;
+   }
+
+   .ce p{
+        font-size: .65rem ;
+        font-weight: normal;
+    }
+
+    .bs p{
+        font-size: .65rem ;
+        font-weight: normal;
+    }
+
+}
+
+@media only screen and (max-width:768px){
+
+    /* footer section */
+
+    #foot{
+        height: 24vh;
+    }
+
+    .f{
+        height: 22vh;
+    }
+
+    .l,.bs,.add,.ce{
+        margin-top: 7vh;
+    }
+
+    .l img{
+        height: 6vh;
+    }
+
+    #foot h3{
+        font-size: .9rem;
+        font-weight: normal;
+    }
+
+   .add p{
+        font-size: .65rem ;
+        font-weight: normal;
+   }
+
+   .ce p{
+        font-size: .65rem ;
+        font-weight: normal;
+    }
+
+    .bs p{
+        font-size: .65rem ;
+        font-weight: normal;
+    }
 }
 
 @media screen and (max-width: 540px){
     .h11{
         font-size: 2rem;
+    }
+
+    .title {
+        width: 28rem;
+    }
+
+    /* FOOTER */
+
+    #foot{
+        height: 23vh;
+    }
+    
+    .f{
+        position: relative;
+        height: 0vh;
+        width: 100%;
+    }
+    
+    .l,.bs,.add,.ce{
+        height: 7vh;
+        margin-top: 24vh;
+    }
+
+    #foot h3{
+        font-size: 0.6rem;
+    }
+    
+    .icons a{
+        position: relative;
+    }
+    
+    .icons svg{
+        top: 0.2vh;
+        position: absolute;
+        width: 1.5vh;
+        height: 1.5vh;
+    }
+    
+    .l img{
+        position: relative;
+        top: 2vh;
+        height: 4vh;
+    }
+    
+    .add{
+        top: 1vh;
+    }
+
+    .ce1{
+        height: 6vh;
+    }
+
+    .ce p{
+        margin-bottom: 0;
+    }
+    
+    .ce a{
+        position: relative;
+        height: 1.2vh;
+    }
+    
+    .bs1{
+        height: 5vh;
+    }
+    
+    .add h3, .bs h3, .ce h3{
+        margin-bottom: 0.2rem;
+        font-size: 0.5rem;
+    } 
+    
+    .add p, .bs p, .ce p{
+        font-size: 0.4rem;
     }
 }
 
@@ -375,3 +696,180 @@ html, body{
         width: 81px;
     }
 }
+
+@media screen and (max-width:440px) {
+    #foot{
+        display: block;
+    }
+
+    .title {
+        height: 340px;
+        width: 19rem;
+    }
+
+    .h2t{
+        margin-bottom: 0;
+        font-size: 2rem;
+    }
+
+    .content{
+        width: 15.5rem;
+    }
+
+    /* FOOTER */
+
+    #foot{
+        height: 21vh;
+    }
+    
+    .l,.bs,.add,.ce{
+        margin-top: 28vh;
+    }
+
+    #foot h3{
+        font-size: 0.6rem;
+    }
+    
+    .icons a{
+        position: relative;
+    }
+    
+    .icons svg{
+        top: 0.2vh;
+        position: absolute;
+        width: 10px;
+        height: 10px;
+    }
+    
+    .l img{
+        position: relative;
+        top: 0vh;
+        height: 3.5vh;
+    }
+    
+    .add{
+        top: 1vh;
+    }
+
+    .ce1{
+        height: 4vh;
+    }
+
+    .ce p{
+        margin-bottom: 0;
+    }
+    
+    .ce a{
+        position: relative;
+        height: 1.2vh;
+    }
+
+    .bs{
+        height: 8vh;
+    }
+    
+    .bs1{
+        height: 3.5vh;
+    }
+    
+    .add h3, .bs h3, .ce h3{
+        margin-bottom: 0.2rem;
+        font-size: 0.5rem;
+    } 
+    
+    .add p, .bs p, .ce p{
+        font-size: 0.4rem;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .l, .bs, .add, .ce {
+        margin-top: 28vh;
+    }
+}
+
+@media screen and (max-width:380px){
+
+    #foot{
+        display: block;
+    }
+
+    .title {
+        height: 340px;
+        width: 19rem;
+    }
+
+    .h2t{
+        margin-bottom: 0;
+        font-size: 2rem;
+    }
+
+    .content{
+        width: 15.5rem;
+    }
+
+    /* FOOTER */
+
+    #foot{
+        height: 23vh;
+    }
+
+    
+    .l,.bs,.add,.ce{
+        height: 7vh;
+        margin-top: 27vh;
+    }
+
+    #foot h3{
+        font-size: 0.6rem;
+    }
+    
+    .icons a{
+        position: relative;
+    }
+    
+    .icons svg{
+        top: 0.2vh;
+        position: absolute;
+        width: 1.5vh;
+        height: 1.5vh;
+    }
+    
+    .l img{
+        position: relative;
+        top: 2vh;
+        height: 4vh;
+    }
+    
+    .add{
+        top: 1vh;
+    }
+
+    .ce1{
+        height: 6vh;
+    }
+
+    .ce p{
+        margin-bottom: 0;
+    }
+    
+    .ce a{
+        position: relative;
+        height: 1.2vh;
+    }
+    
+    .bs1{
+        height: 5vh;
+    }
+    
+    .add h3, .bs h3, .ce h3{
+        margin-bottom: 0.2rem;
+        font-size: 0.5rem;
+    } 
+    
+    .add p, .bs p, .ce p{
+        font-size: 0.4rem;
+    }
+    
+}
+

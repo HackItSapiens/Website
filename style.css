@@ -492,7 +492,9 @@ html, body{
     text-shadow: #cb8d3189 1px 0 10px;
 }
 
-/* PAST SPONSORS */
+
+
+/* PAST SPONSORS
 #ps{
     width: 100%;
     height: 215vh;
@@ -593,13 +595,18 @@ html, body{
 .btn3:hover{
     background-color: #5B3803 !important;
     color: var(--white-color);
-}
+} */
 
 /* PAST EVENT */
 #pe{
     width: 100%;
-    height: 250vh;
+    height: 280vh;
     overflow: hidden;
+}
+
+.roots{
+    width: 100%;
+
 }
 
 .pe1{
@@ -611,7 +618,7 @@ html, body{
     font-family: var(--primary-font);
     color: var(--primary-color);
     font-weight: bold;
-    margin-top: 7vh;
+    margin-top: 0vh;
     margin-bottom: 7vh;
 }
 
@@ -705,10 +712,6 @@ html, body{
     background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200562882467876914/fbg.png?ex=65c6a250&is=65b42d50&hm=93b904d41a271a2da844ab8b994d13262c63d603620bf0842a8ae288dbba1e16&=&format=webp&quality=lossless&width=1440&height=312);
     background-size: cover;
 }
-
-/* .f{
-    height: 40vh;
-} */
 
 .l,.bs,.add,.ce{
     margin-top: 5rem;
