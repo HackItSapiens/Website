@@ -208,7 +208,7 @@ html, body{
 .s2 img, .s21 img{
     position: relative;
     height: 89px;
-    width: 89px;
+    width: 213px;
     margin-top: 0.4rem;
 }
 
@@ -309,7 +309,7 @@ html, body{
     
     .s2 img{
         height: 80px;
-        width: 80px;
+        width: 200px;
     }
 
     .s3 img{
@@ -379,10 +379,6 @@ html, body{
         margin-bottom: 1rem;
     }
 
-    .s41{
-        margin-bottom: 3rem;
-    }
-
     .title {
         height: 280px;
         width: 33rem;
@@ -410,7 +406,7 @@ html, body{
     
     .s21 img{
         height: 91px;
-        width: 91px;
+        width: 210px;
     }
 
     .s31 img{
@@ -486,10 +482,6 @@ html, body{
         font-size: 2.5rem;
         margin-top: 7rem;
         margin-bottom: 1rem;
-    }
-
-    .s41{
-        margin-bottom: 3rem;
     }
 
     .title {
@@ -683,7 +675,7 @@ html, body{
 
     .s21 img {
         height: 79px;
-        width: 79px;
+        width: 190px;
     }
 
     .s31 img {
@@ -694,6 +686,10 @@ html, body{
     .s41 img {
         height: 80px;
         width: 81px;
+    }
+
+    .s41{
+        margin-bottom: 0;
     }
 }
 
