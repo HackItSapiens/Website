@@ -22,7 +22,7 @@ html, body{
     background-size: cover;
 }
 
-#sponsor1, #foot{
+#sponsor1{
     display: none;
 }
 
@@ -140,7 +140,7 @@ html, body{
 
 .h2, .h21{
     font-size: 1.7rem;
-    margin-top: 1.7rem;
+    padding-top: 1.7rem;
     font-family: var(--primary-font);
     color: var(--primary-color);
 }
@@ -151,6 +151,47 @@ html, body{
     margin-top: 2rem;
     border-radius: 6px;
     background-image: var(--bs-gradient);
+}
+
+.sprow{
+    width: 81%;
+    margin-top: 4rem;
+}
+
+.co-p{
+    height: 160px;
+    width: 38rem;
+    border-radius: 6px;
+    background-image: var(--bs-gradient);
+}
+
+.hq{
+    height: 3rem;
+    width: 11rem;
+}
+
+.content0{
+    width: 20rem;
+}
+
+.platform{
+    height: 160px;
+    width: 21rem;
+    border-radius: 6px;
+    background-image: var(--bs-gradient);
+}
+
+.dh{
+    height: 5rem;
+    width: 18rem;   
+}
+
+.h2td{
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
 }
 
 .h2t{
@@ -181,13 +222,21 @@ html, body{
     width: 29rem;
 }
 
+.h20{
+    padding-top: 1.5rem;
+    font-size: 1.7rem;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
 .la{
     height: 5rem;
 }
 
 .srow1{
     width: 76rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .s1, .s2, .s3, .s4, .s11, .s21, .s31, .s41{
@@ -280,16 +329,52 @@ html, body{
     .s1, .s2, .s3, .s4{
         width: 256px;
     }
+
+    .sprow {
+        width: 87%;
+    }
+
+    /* footer section */
+
+    .add h3, .ce h3, .bs h3{
+        font-size: 1.25rem;
+    }
+
+    .add p, .ce p, .bs p{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:1246px){
+    #foot {
+        height: 46vh;
+    }
+
+    .f {
+        height: 38vh;
+    }
 }
 
 @media screen and (max-width:1152px){
+    .sprow {
+        width: 89.5%;
+    }
+
+    .platform {
+        width: 17.5rem;
+    }
+
+    .co-p {
+        width: 36rem;
+    }
+
     .h1{
         font-size: 2rem;
         margin-top: 7rem;
     }
 
     .h2{
-        margin-top: 1.5rem;
+        padding-top: 1.5rem;
         font-size: 1.5rem;
     }
 
@@ -321,6 +406,10 @@ html, body{
         height: 82px;
         width: 82px;
     }
+
+    #foot{
+        height: 40vh;
+    }
 }
 
 @media screen and (max-width:1056px){
@@ -347,6 +436,48 @@ html, body{
         margin-top: 2rem;
     }
 
+    #foot{
+        height: 38vh;
+    }
+    
+        
+    
+    .add h3, .ce h3, .bs h3{
+        font-size: 1rem;
+    }
+    
+    .add p, .ce p, .bs p{
+        font-size: 0.7rem;
+    }
+
+}
+
+@media screen and (max-width:1024px){
+    /* footer section */
+
+    #foot{
+        height: 38vh;
+    }
+
+    .l,.bs,.add,.ce{
+        margin-top: 6.5vh;
+    }
+
+    #foot h3{
+        font-size: 1rem;
+    }
+
+   .add p{
+        font-size: .8rem ;
+   }
+
+   .ce p{
+        font-size: .8rem ;
+    }
+
+    .bs p{
+        font-size: .8rem ;
+    }
 }
 
 @media screen and (max-width: 915px){
@@ -365,7 +496,7 @@ html, body{
     }
 
     .h21{
-        margin-top: 2rem;
+        padding-top: 2rem;
         font-size: 2rem;
     }
 
@@ -386,6 +517,27 @@ html, body{
 
     .h2t {
         font-size: 2rem;
+    }
+
+    .co-p {
+        height: 17rem;
+        width: 26rem;
+        margin-top: 3rem;
+    }
+
+    .h2td {
+        font-size: 2rem;
+    }
+
+    .platform {
+        height: 13rem;
+        width: 26rem;
+        margin-top: 3rem;
+    }
+
+    .dh {
+        height: 7rem;
+        width: 25rem;
     }
 
     .content {
@@ -471,7 +623,7 @@ html, body{
     }
 
     .h21{
-        margin-top: 1.5rem;
+        padding-top: 1.5rem;
     }
 
     #foot{
@@ -658,8 +810,25 @@ html, body{
         font-size: 1.7rem;
     }
 
+    .co-p {
+        width: 19rem;
+    }
+
+    .content0 {
+        width: 15rem;
+    }
+
+    .platform {
+        width: 19rem;
+    }
+
+    .dh {
+        height: 6rem;
+        width: 19rem;
+    }
+
     .h21 {
-        margin-top: 1rem;
+        padding-top: 1rem;
     }
 
     .s11, .s21, .s31, .s41 {
@@ -704,7 +873,7 @@ html, body{
     }
 
     .h2t{
-        margin-bottom: 0;
+        padding-top: 0;
         font-size: 2rem;
     }
 
@@ -782,6 +951,10 @@ html, body{
     .l, .bs, .add, .ce {
         margin-top: 28vh;
     }
+
+    .content0 {
+        width: 16rem;
+    }
 }
 
 @media screen and (max-width:380px){
@@ -795,13 +968,30 @@ html, body{
         width: 19rem;
     }
 
+    .co-p {
+        width: 19rem;
+    }
+
+    .platform {
+        width: 19rem;
+    }
+
+    .dh {
+        height: 6rem;
+        width: 19rem;
+    }
+
     .h2t{
-        margin-bottom: 0;
+        padding-top: 0;
         font-size: 2rem;
     }
 
     .content{
         width: 15.5rem;
+    }
+
+    .content0 {
+        width: 15rem;
     }
 
     /* FOOTER */
