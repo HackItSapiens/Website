@@ -2431,7 +2431,11 @@
     }
     
     .bs1{
-        height: 5vh;
+        height: 6vh;
+    }
+
+    .B{
+        height: 1.5vh;
     }
     
     .add h3, .bs h3, .ce h3{
@@ -2803,9 +2807,6 @@
         height: 1.2vh;
     }
     
-    .bs1{
-        height: 5vh;
-    }
     
     .add h3, .bs h3, .ce h3{
         margin-bottom: 0.2rem;
@@ -3174,14 +3175,14 @@
     .ce p{
         margin-bottom: 0;
     }
+
+    .bs1 {
+        height: 4.7vh;
+    }
     
     .ce a{
         position: relative;
         height: 1.2vh;
-    }
-    
-    .bs1{
-        height: 3.5vh;
     }
     
     .add h3, .bs h3, .ce h3{
@@ -3242,6 +3243,10 @@
         width: 9rem;
     } */
 
+    .bs1 {
+        height: 5vh;
+    }
+
     .as p{
         letter-spacing: 0.03rem;
         padding: 0.5rem 1rem 0rem 1rem;
@@ -3293,12 +3298,12 @@
         width: 352px;
     }
 
-    .bs1 {
-        height: 4.1vh;
-    }
-
     .ce1 {
         height: 4.5vh;
+    }
+
+    .bs1 {
+        height: 6vh;
     }
 
     #pem {
@@ -3631,6 +3636,10 @@
         width: 1.5vh;
         height: 1.5vh;
     }
+
+    .bs1 {
+        height: 6vh;
+    }
     
     .l img{
         position: relative;
@@ -3653,10 +3662,6 @@
     .ce a{
         position: relative;
         height: 1.2vh;
-    }
-    
-    .bs1{
-        height: 5vh;
     }
     
     .add h3, .bs h3, .ce h3{
@@ -3985,9 +3990,6 @@
         height: 1.2vh;
     }
     
-    .bs1{
-        height: 5vh;
-    }
     
     .add h3, .bs h3, .ce h3{
         margin-bottom: 0.2rem;

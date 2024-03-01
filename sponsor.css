@@ -756,6 +756,15 @@ html, body{
     #foot h3{
         font-size: 0.6rem;
     }
+
+    .bs1{
+        height: 6vh;
+    }
+
+    .B{
+        height: 1.5vh;
+    }
+    
     
     .icons a{
         position: relative;
@@ -934,7 +943,7 @@ html, body{
     }
     
     .bs1{
-        height: 3.5vh;
+        height: 5vh;
     }
     
     .add h3, .bs h3, .ce h3{
@@ -950,6 +959,10 @@ html, body{
 @media screen and (max-width:415px) {
     .l, .bs, .add, .ce {
         margin-top: 28vh;
+    }
+
+    .bs1{
+        height: 5vh;
     }
 
     .content0 {
@@ -1045,7 +1058,7 @@ html, body{
     }
     
     .bs1{
-        height: 5vh;
+        height: 6vh;
     }
     
     .add h3, .bs h3, .ce h3{
