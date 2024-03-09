@@ -1448,12 +1448,6 @@
         font-size: 1.6rem;
     }
 
-    #loading{
-        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200564818986410065/map820.png?ex=65c6a41e&is=65b42f1e&hm=c7b82079f71416230a845f7a48e2b6871e75d447795d6646557681a51ff80757&=&format=webp&quality=lossless&width=392&height=565);
-        background-size: cover;
-        overflow-y: hidden;
-    }
-
     /* home section */
     #home{
         height: 45vh;
@@ -2078,7 +2072,7 @@
     }
 
     #all{
-        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200565202207379536/Android_Large_-_3.png?ex=65f4c8f9&is=65e253f9&hm=68ba548caf2e726a90047b5573139ed23b7232b0b6aa6a447e7f6fa952edbe00&=&format=webp&quality=lossless&width=107&height=563) ;
+        background-image: url(./images/Android\ Large\ -\ 3.png) ;
         background-size: cover;
     }
 
@@ -2477,16 +2471,8 @@
     }
 
     #all{
-        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200565202207379536/Android_Large_-_3.png?ex=65f4c8f9&is=65e253f9&hm=68ba548caf2e726a90047b5573139ed23b7232b0b6aa6a447e7f6fa952edbe00&=&format=webp&quality=lossless&width=107&height=563) ;
+        background-image: url(./images/Android\ Large\ -\ 3.png) ;
         background-size: cover;
-    }
-
-    /* LOADER */
-
-    #loading{
-        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200565621088342026/map_mobile.png?ex=65c6a4dd&is=65b42fdd&hm=829ac62265b709737f4e33fbfb12c6e2d6c0677126c1175467328afec3c5ddc5&=&format=webp&quality=lossless&width=285&height=563);
-        background-size: cover;
-        overflow-y: hidden;
     }
 
     /* HOME */
@@ -2847,11 +2833,6 @@
         height: 98rem;
     }
 
-    #all{
-        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200565202207379536/Android_Large_-_3.png?ex=65f4c8f9&is=65e253f9&hm=68ba548caf2e726a90047b5573139ed23b7232b0b6aa6a447e7f6fa952edbe00&=&format=webp&quality=lossless&width=107&height=563) ;
-        background-size: cover;
-    }
-
     /* HOME */
 
     #home{
@@ -3204,7 +3185,7 @@
     }
 
     #all{
-        background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200566424435958012/Android_Large_-_4.png?ex=65f4ca1d&is=65e2551d&hm=9fdcd0356df8bb67147c7a0f08a872c6dc10ac54361c07f95b8675738dcb23c2&=&format=webp&quality=lossless&width=107&height=563);
+        background-image: url(./images/Android\ Large\ -\ 4.png);
         background-size: cover;
         
     }

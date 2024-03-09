@@ -80,7 +80,7 @@ html, body{
 
 
 #all{
-    background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1210650151274807306/WEBSITE.png?ex=65eb54d0&is=65d8dfd0&hm=652ad702fd612b970b5a5d6c89f9e282d36537e2846c1d4414839c6577805f69&=&format=webp&quality=lossless&width=121&height=565) ;
+    background-image: url(./images/WEBSITE.png) ;
     background-size: cover;
 }
 
@@ -286,7 +286,7 @@ html, body{
 
 /* HACKATHON TRACK SECTION */
 #ht{
-    background-image:url(https://media.discordapp.net/attachments/1200544298630905906/1210651155227611226/ht_bg.png?ex=65eb55c0&is=65d8e0c0&hm=ae81db946288a48cfef6d6926eecdc0a33263cebb58bd79f41c422bafe32f2c9&=&format=webp&quality=lossless&width=988&height=565);
+    background-image:url(./images/ht\ bg.png);
     background-size: cover;
     height: 138vh;
 }
@@ -709,7 +709,7 @@ html, body{
     width: 100%;
     /* height: 65vh; */
     bottom: 0;
-    background-image: url(https://media.discordapp.net/attachments/1200544298630905906/1200562882467876914/fbg.png?ex=65f4c6d0&is=65e251d0&hm=212bd5ffed055e4668e196b290822d7028f4ad0f2b18d45168bdd599002350a4&=&format=webp&quality=lossless&width=1440&height=312);
+    background-image: url(./images/fbg.png);
     background-size: cover;
 }
 
