@@ -262,7 +262,8 @@ html, body{
 }
 
 .srow2{
-    margin-top: 2rem;
+    margin-top: 4rem;
+    width: 56rem;
 }
 
 .s3 img, .s31 img{
@@ -284,7 +285,7 @@ html, body{
     margin-top: 4rem;
 }
 
-.s5, .s6, .s7, .s8, .s51 .s61, .s71, .s81{
+.s5, .s6, .s7, .s8, .s9, .s10, .s11, .s51 .s61, .s71, .s81, .s91, .s101, .s111{
     height: 180px;
     width: 272px;
     border-radius: 6px;
@@ -318,6 +319,27 @@ html, body{
     height: 87px;
     width: 86px;
     margin-top: 0.3rem;
+}
+
+.s9 img, .s91 img{
+    position: relative;
+    height: 83px;
+    width: 230px;
+    margin-top: 0.8rem;
+}
+
+.s10 img, .s101 img{
+    position: relative;
+    height: 83px;
+    width: 230px;
+    margin-top: 0.8rem;
+}
+
+.s11 img, .s111 img{
+    position: relative;
+    height: 65px;
+    width: 200px;
+    margin-top: 0.8rem;
 }
 
 
@@ -367,7 +389,11 @@ html, body{
         width: 70rem;
     }
 
-    .s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8{
+    .srow2{
+        width: 52.3rem;
+    }
+
+    .s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8, .s9, .s10, .s11{
         width: 256px;
     }
 
@@ -458,9 +484,13 @@ html, body{
         width: 62rem;
     }
 
-    .s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8 {
+    .s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8, .s9, .s10, .s11 {
         height: 166px;
         width: 223px;
+    }
+
+    .srow2 {
+        width: 46rem;
     }
 
     .s5 img{
@@ -482,6 +512,21 @@ html, body{
     .s8 img{
         height: 80px;
         width: 80px;
+    }
+
+    .s9 img{
+        height: 80px;
+        width: 180px;
+    }
+
+    .s10 img{
+        height: 80px;
+        width: 200px;
+    }
+
+    .s11 img{
+        height: 60px;
+        width: 170px;
     }
 
     .title{
@@ -607,7 +652,7 @@ html, body{
         width: 24rem;
     }
 
-    .s11, .s21, .s31, .s41, .s81{
+    .s11, .s21, .s31, .s41, .s81, .s91, .s101, .s111{
         margin-top: 3rem;
         height: 198px;
         width: 405px;
@@ -698,7 +743,7 @@ html, body{
 }
 
 @media screen and (max-width: 821px){
-    .s11, .s21, .s31, .s41, .s51, .s61, .s81, .platform{
+    .s11, .s21, .s31, .s41, .s51, .s61, .s81, .s91, .s101, .s111, .platform{
         margin-top: 2.2rem;
         height: 191px;
         width: 349px;
@@ -942,7 +987,7 @@ html, body{
         padding-top: 1rem;
     }
 
-    .s11, .s21, .s31, .s41, .s51, .s61, .s81, .platform {
+    .s11, .s21, .s31, .s41, .s51, .s61, .s81, .s91, .s101, .s111, .platform {
         margin-top: 2.2rem;
         height: 166px;
         width: 300px;
