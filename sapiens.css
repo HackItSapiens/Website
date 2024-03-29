@@ -134,7 +134,7 @@ html, body{
 }
 
 #sapiens{
-    height: 580vh;
+    height: 605vh;
 }
 
 .g-head{
@@ -246,6 +246,12 @@ html, body{
     height: 207px;
 }
 
+.grow22{
+    margin-top: 6rem;
+    width: 25%;
+    height: 207px;
+}
+
 .sc-h{
     position: relative;
     font-family: var(--primary-font);
@@ -287,11 +293,15 @@ html, body{
 
 @media screen and (max-width:1344px){
     #sapiens {
-        height: 488vh;
+        height: 520vh;
     }
 
     .grow5, .grow6, .grow7, .grow8, .grow9, .grow10, .grow11 {
         width: 89%;
+    }
+
+    .grow22{
+        width: 30%;
     }
     
 }
@@ -322,7 +332,7 @@ html, body{
 
 @media screen and (max-width:1246px){
     #sapiens {
-        height: 650vh;
+        height: 690vh;
     }
 
     .grow5, .grow6, .grow7, .grow8, .grow9, .grow10, .grow11 {
@@ -343,6 +353,10 @@ html, body{
         width: 88%;
     }
 
+    .grow22{
+        width: 34%;
+    }
+
     #foot{
         height: 40vh;
     }
@@ -351,6 +365,10 @@ html, body{
 @media screen and (max-width:1056px){
     .grow5, .grow6, .grow7, .grow8, .grow9, .grow10, .grow11 {
         width: 100%;
+    }
+
+    .grow22{
+        width: 35%;
     }
     
     #foot{
@@ -367,12 +385,8 @@ html, body{
 }
 
 @media screen and (max-width:1024px){
-    .gimg {
-        height: 160px;
-    }
-
-    .guh{
-        font-size: 1.35rem;
+    #sapiens {
+        height: 680vh;
     }
 
     /* footer section */
@@ -404,7 +418,12 @@ html, body{
 
 @media screen and (max-width: 915px){
     #sapiens {
-        height: 225vh;
+        height: 240vh;
+    }
+
+    .grow22 {
+        margin-top: 1.5rem;
+        width: 31%;
     }
 
     .guh {
@@ -482,18 +501,26 @@ html, body{
 
 @media screen and (max-width: 860px){
     #sapiens {
-        height: 240vh;
+        height: 260vh;
+    }
+
+    .grow22 {
+        margin-top: 1.5rem;
     }
 }
 
 @media screen and (max-width: 821px){
 
     #sapiens {
-        height: 260vh;
+        height: 280vh;
     }
 
     .grow5, .grow6, .grow7, .grow8, .grow9, .grow10, .grow11 {
         width: 100%;
+    }
+
+    .grow22{
+        width: 35%;
     }
 
     /* footer section */
@@ -533,7 +560,11 @@ html, body{
 
 @media only screen and (max-width:768px){
     #sapiens {
-        height: 290vh;
+        height: 310vh;
+    }
+
+    .grow22{
+        margin-top: 0;
     }
 
     .gimg {
@@ -585,7 +616,11 @@ html, body{
 
 @media screen and (max-width: 540px){
     #sapiens {
-        height: 300vh;
+        height: 320vh;
+    }
+    .grow22{
+        margin-top: 0;
+        height: 170px;
     }
 
     .gmain2 {
@@ -744,6 +779,11 @@ html, body{
 
     .grow15{
         margin-top: 1rem;
+    }
+
+    .grow22{
+        width: 45%;
+        margin-top: 1.3rem;
     }
     
 
