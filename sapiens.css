@@ -296,7 +296,7 @@ html, body{
         height: 520vh;
     }
 
-    .grow5, .grow6, .grow7, .grow8, .grow9, .grow10, .grow11 {
+    .grow4, .grow3, .grow5, .grow6, .grow7, .grow8, .grow9, .grow10, .grow11 {
         width: 89%;
     }
 
@@ -363,7 +363,7 @@ html, body{
 }
 
 @media screen and (max-width:1056px){
-    .grow5, .grow6, .grow7, .grow8, .grow9, .grow10, .grow11 {
+    .grow4, .grow3, .grow5, .grow6, .grow7, .grow8, .grow9, .grow10, .grow11 {
         width: 100%;
     }
 
@@ -446,7 +446,7 @@ html, body{
         margin-top: 1.5rem;
     }
 
-    .grow5, .grow6, .grow7, .grow8, .grow9, .grow10, .grow11 {
+    .grow4, .grow3, .grow5, .grow6, .grow7, .grow8, .grow9, .grow10, .grow11 {
         width: 90%;
     }
 
@@ -515,7 +515,7 @@ html, body{
         height: 280vh;
     }
 
-    .grow5, .grow6, .grow7, .grow8, .grow9, .grow10, .grow11 {
+    .grow4, .grow3, .grow5, .grow6, .grow7, .grow8, .grow9, .grow10, .grow11 {
         width: 100%;
     }
 
@@ -744,6 +744,10 @@ html, body{
     display: block;
    }
 
+   .grow14 {
+    width: 85%;
+    }
+
    #sapiens{
     display: none;
    }
@@ -858,6 +862,9 @@ html, body{
         height: 67vh;
     }
 
+    .grow14 {
+        width: 85%;
+    }
 
     .l, .bs, .add, .ce {
         margin-top: 28vh;
@@ -963,9 +970,13 @@ html, body{
     }
 }
 
-@media screen and (max-width:380px){
+@media screen and (max-width:360px){
     .carousel-item {
         margin-right: -35%;
+    }
+
+    .grow14 {
+        width: 85%;
     }
 }
 
